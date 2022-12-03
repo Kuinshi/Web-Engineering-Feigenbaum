@@ -21,7 +21,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://www.flaticon.com/free-icon/fullscreen_483333
 
 ## Next Steps
-- Clean up the project of all unneccessary things.
+- Clean up the project of all unnecessary things.
 - Modify the HTML Template
   - Make AR Button unavailable
   - Try to have the VR Button in game
