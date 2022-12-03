@@ -8,6 +8,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ## Unity Packages used
 - https://assetstore.unity.com/packages/2d/gui/dark-theme-ui-199010#reviews
 - https://assetstore.unity.com/packages/2d/fonts/fatality-fps-gaming-font-216954
+- https://assetstore.unity.com/packages/tools/utilities/webgl-optimizer-230446
 
 ## External Code Assets used
 - https://github.com/De-Panther/unity-webxr-export for WebXR in Unity
