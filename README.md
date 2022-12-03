@@ -1,4 +1,28 @@
 # Feigenbaum
 This project is created for HBRS' Web-Engineering course in the winter term 22/23.
 
-We aim to create an asymmetric AR/VR co-op game for WebXR with the Wonderland Engine.
+We aim to create an asymmetric VR vs. 4-PC-Player Brawling Game.
+
+Publish on itch.io so we do not need our own server as long as our game stays below 1GB: https://kuinshi.itch.io/feigenbaum
+
+## Unity Packages used
+- https://assetstore.unity.com/packages/2d/gui/dark-theme-ui-199010#reviews
+- https://assetstore.unity.com/packages/2d/fonts/fatality-fps-gaming-font-216954
+
+## External Code Assets used
+- https://github.com/De-Panther/unity-webxr-export for WebXR in Unity
+- https://github.com/danilofaugusto/WebXR-Slap-a-Cube-Tutorial used this as base project to get WebXR working
+  
+## External Art Assets used
+
+### Icons
+- https://www.flaticon.com/free-icon/fullscreen_483332
+- https://www.flaticon.com/free-icon/fullscreen_483333
+
+## Next Steps
+- Clean up the project of all unneccessary things.
+- Modify the HTML Template
+  - Make AR Button unavailable
+  - Try to have the VR Button in game
+  - Add a fullscreen Button for PC Players
+- Test
