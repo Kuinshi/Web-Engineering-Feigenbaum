@@ -28,6 +28,8 @@ namespace Util
             {
                 _instance = this as T;
             }
+            
+            Init();
         }
 
         private void OnDestroy()

@@ -16,6 +16,8 @@ namespace WebXRAccess
             
 #if UNITY_EDITOR
             // WebXR Stuff only works in Browser :c
+            vrButton.enabled = true;
+            canvasGroup.alpha = 1;
             return;
 #endif
 
@@ -26,6 +28,8 @@ namespace WebXRAccess
             vrButton.enabled = true;
             canvasGroup.alpha = 1;
             
+            // ToDo: Move entering VR to a later Point!
+            /*
             EventTrigger eventTrigger = vrButton.gameObject.AddComponent<EventTrigger>();
             EventTrigger.Entry entry = new EventTrigger.Entry {eventID = EventTriggerType.PointerDown};
             entry.callback.AddListener((evenData) =>
@@ -33,6 +37,7 @@ namespace WebXRAccess
                 ActivateVR();
             });
             eventTrigger.triggers.Add(entry);
+            */
         }
         
         private void ActivateVR()
