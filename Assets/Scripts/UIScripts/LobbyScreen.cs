@@ -109,7 +109,13 @@ namespace UIScripts
 
         public void StartGame()
         {
-            //NetworkRunnerManager.Instance.Runner.
+            NetworkRunnerManager.Instance.Runner.SetActiveScene("02_Game");
+            
+            var playerListItems = FindObjectsOfType<PlayerListItem>();
+            foreach (var listItem in playerListItems)
+            {
+                NetworkRunnerManager.Instance.Runner.Despawn(listItem.Object);
+            }
         }
 
         public void ReadyClick()
