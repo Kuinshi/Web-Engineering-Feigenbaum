@@ -15,7 +15,7 @@ namespace UIScripts
 
         public void UpdateName()
         {
-            PlayerData.userName = _inputField.text;
+            LocalPlayerData.userName = _inputField.text;
         }
     }
 }

@@ -17,8 +17,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ## External Art Assets used
 
 ### Icons
-- https://www.flaticon.com/free-icon/fullscreen_483332
-- https://www.flaticon.com/free-icon/fullscreen_483333
+- https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 
 ## Next Steps
 - Clean up the project of all unnecessary things.

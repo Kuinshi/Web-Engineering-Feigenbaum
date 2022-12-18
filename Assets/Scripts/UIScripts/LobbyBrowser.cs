@@ -25,6 +25,9 @@ namespace UIScripts
         [SerializeField] private TextMeshProUGUI statusText;
 
         [SerializeField] private GameObject NetworkManager;
+            
+        [SerializeField] private UnityEvent onRoomJoined;
+
         
         
         #region Display Lobby Browser
@@ -36,6 +39,8 @@ namespace UIScripts
 
         private IEnumerator JoinLobbyBrowser()
         {
+            LoadingIndicatorManager.Instance.StartLoading();
+
             statusText.text = "Looking for active lobbies...";
             NetworkRunnerManager.Instance.Runner.AddCallbacks(this);
             Task<StartGameResult> task =  NetworkRunnerManager.Instance.Runner.JoinSessionLobby(SessionLobby.ClientServer);
@@ -54,6 +59,8 @@ namespace UIScripts
             {
                 disconnectUi.CallDisconnect(result.ShutdownReason.ToString());
             }
+            
+            LoadingIndicatorManager.Instance.StopLoading();
         }
 
         #endregion
@@ -104,7 +111,9 @@ namespace UIScripts
 
         IEnumerator JoinSessionRoutine(SessionInfo sessionInfo)
         {
-            PlayerData.isVrPlayer = false;
+            LoadingIndicatorManager.Instance.StartLoading();
+
+            LocalPlayerData.isVrPlayer = false;
 
             Task<StartGameResult> task = NetworkRunnerManager.Instance.Runner.StartGame(new StartGameArgs()
             {
@@ -121,12 +130,14 @@ namespace UIScripts
 
             if (result.Ok)
             {
-                // ToDo: Open Lobby UI
+                onRoomJoined?.Invoke();
             }
             else
             {
                 disconnectUi.CallDisconnect(result.ShutdownReason.ToString());
             }
+            
+            LoadingIndicatorManager.Instance.StopLoading();
         }
         
         #region HostSession
@@ -138,6 +149,8 @@ namespace UIScripts
 
         private IEnumerator HostSessionRoutine()
         {
+            LoadingIndicatorManager.Instance.StartLoading();
+            
             NetworkRunnerManager.Instance.Runner.GetComponent<NetworkEvents>().PlayerJoined.AddListener((runner, player) =>
             {
                 if (runner.IsServer && runner.LocalPlayer == player)
@@ -149,7 +162,7 @@ namespace UIScripts
 
 
             string code = RandomStringGenerator.GetRandomString(6);
-            PlayerData.isVrPlayer = true;
+            LocalPlayerData.isVrPlayer = true;
 
             Task<StartGameResult> task = NetworkRunnerManager.Instance.Runner.StartGame(new StartGameArgs()
             {
@@ -166,12 +179,14 @@ namespace UIScripts
             StartGameResult result = task.Result;
             if (result.Ok)
             {
-                // ToDo: Open Lobby Screen
+                onRoomJoined?.Invoke();
             }
             else
             {
                 disconnectUi.CallDisconnect(result.ToString());
             }
+            
+            LoadingIndicatorManager.Instance.StopLoading();
         }
         
         #endregion
