@@ -1,16 +1,16 @@
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace Addressables
 {
     public class UnloadMenuScene : MonoBehaviour
     {
-        [SerializeField] private AssetReference scene;
-
-    
+        
         private void Start()
         {
-            scene.UnLoadScene();
+            var loadMenuScene = FindObjectOfType<LoadMenuScene>();
+            if(loadMenuScene != null)
+                Destroy(loadMenuScene.gameObject);
+            Destroy(gameObject);
         }
     
     }
