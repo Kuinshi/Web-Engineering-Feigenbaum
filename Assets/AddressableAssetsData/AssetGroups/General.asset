@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: General
+  m_EditorClassIdentifier: 
+  m_GroupName: General
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c7a97b3d97382234c9620c0859d05c06
+  m_SerializeEntries:
+  - m_GUID: 78d3ae379fae1394f83b360aae1a5339
+    m_Address: Assets/Textures/UI/BackgroundGradient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af19b810ad81d8741ba1583f72a9d93c
+    m_Address: Assets/External Packages/Dark UI/Free/X.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cf2f46063edb3445a4b32cbd687b51c
+    m_Address: Assets/External Packages/Dark UI/Free/Right Arrow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cbf273c77eba1a448f3c04ff4292030
+    m_Address: Assets/External Packages/Dark UI/Free/InputField.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 210e6a7b28c57aa4e9408866e861895c
+    m_Address: Assets/External Packages/Dark UI/Free/Left Arrow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7747227fc69607f46833ce90b8776f0d
+    m_Address: Assets/External Packages/Dark UI/Free/Icon Sets.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a05d49e5687fd3c4380912ac00e2db9c
+    m_Address: Assets/External Packages/Dark UI/Free/CIRCLE2PXLAR.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e33bda025a5e1d4eae51ae3933d9954
+    m_Address: Assets/External Packages/Dark UI/Free/Divider.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bfdc84f127b8607479e3fe35cd51157a
+    m_Address: Assets/External Packages/Dark UI/Free/D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fe7093e9bd11cb43b64578a75562ba3
+    m_Address: Assets/External Packages/Dark UI/Free/F.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8199e973785f2184594e575e5967e818
+    m_Address: Assets/External Packages/Dark UI/Free/E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe60e9801e85e2e47a31a90354f6add9
+    m_Address: Assets/External Packages/Dark UI/Free/C.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04c64e19d8f8f0140837c8a6b21c358d
+    m_Address: Assets/External Packages/Dark UI/Free/ButtonSmallRound.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c3fb1e6eb7fc9745b3bba559360321f
+    m_Address: Assets/External Packages/Dark UI/Free/ButtonMediumRound.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac9e02ea18781ab459dd5feca42c0db1
+    m_Address: Assets/External Packages/Dark UI/Free/ButtonLargeRound.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ed7b78422faa044695989e1108c5d63
+    m_Address: Assets/External Packages/Dark UI/Free/Button_Small_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9fa9ebfa2606f840a23f0bb0ac882af
+    m_Address: Assets/External Packages/Dark UI/Free/Button_Medium_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fee7cb0981897184ca8e254670a1d84f
+    m_Address: Assets/External Packages/Dark UI/Free/Button_Large_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2d6a7e9df0789d4eaf8dbbac47eb1f6
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_Line_4PX_Small.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b631b747eaea1bb40a188fdced546dd2
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_Line_4PX_Medium.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5c79f69909c16942b803f137f3ca0eb
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_Line_4PX_Large.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 864f00a7055893d45b093ac179e35237
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_A3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d6987b955d79574a92ef79c006ad418
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_A2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 604d5ed6f532a5146bf48201437881ee
+    m_Address: Assets/External Packages/Dark UI/Free/BTN_A1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0800cc9d4da0323489f4d25c65194aa5
+    m_Address: Assets/External Packages/Dark UI/Free/B.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f9aff9d1d5411d419a50a1f33efcf25
+    m_Address: Assets/External Packages/Dark UI/Free/A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87ea2079a91b3e74f84b5cb700abb4d6
+    m_Address: Assets/External Packages/Dark UI/Free/128.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 240ae01ad665c6d4798249cbec763ce8
+    m_Address: Assets/External Packages/Dark UI/Free/128 Light.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c5a0d6878b96be4f9f82216b59eca51
+    m_Address: Assets/External Packages/Dark UI/Free/128 Light 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 701e7ed4dde1bf949b30e33741547ac9
+    m_Address: Assets/External Packages/Dark UI/Free/64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bf101c8c2b8aab4484cd2ff08be047b
+    m_Address: Assets/External Packages/Dark UI/Free/64 Light.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91db8970c28d4a344beff5618f7a0ca3
+    m_Address: Assets/External Packages/Dark UI/Free/64 Light 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcdc43f7a0ad67b4ab3e3db38233dfae
+    m_Address: Assets/External Packages/Dark UI/Free/32.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a689281f545979940b5cedad12ec31a8
+    m_Address: Assets/External Packages/Dark UI/Free/32 Light.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c22439f7b2eadb41b70e5385d667660
+    m_Address: Assets/External Packages/Dark UI/Free/32 Light 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4414e5faa4f968d4b85d65886926d5ad, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc6e9677ed5129f4f81d413f911cbee9, type: 2}
+    - {fileID: 11400000, guid: 11ea1bdd8d90f5f449372ad6b714e1d3, type: 2}

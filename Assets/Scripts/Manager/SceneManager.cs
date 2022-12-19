@@ -8,12 +8,6 @@ namespace Manager
     {
 
         private List<int> _activeAdditiveScenes = new List<int>();
-        
-        private void Start()
-        {
-            // Automatically load Main Menu 
-            LoadAdditiveScene(1);
-        }
 
         // ToDo: Implement other functions to laod/unload scenes, list of active scenes etc.
 

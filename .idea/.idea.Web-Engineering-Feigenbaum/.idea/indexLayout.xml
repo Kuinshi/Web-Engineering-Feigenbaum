@@ -31,10 +31,10 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
+      <Path>AddressableBuilds</Path>
       <Path>Build</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>WebGL Builds</Path>
       <Path>obj</Path>
