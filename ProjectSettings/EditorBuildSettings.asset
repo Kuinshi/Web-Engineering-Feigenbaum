@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/00_InitScene.unity
     guid: 78b12c1f92131324ea5e491fedd26ab1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/02_Game.unity
     guid: d0e6dced0fbc0ea42bef1d784348cb7a
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 26ccba471ba27c5478c15c9f4ddf2846
   m_configObjects:
     WebXR.Settings: {fileID: 11400000, guid: 93720014cad16c943ad3430c4d28ef48, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 035bbb1121583e043a910bf2dc8b0782, type: 2}

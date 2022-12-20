@@ -19,6 +19,9 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ### Icons
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 
+### Character Mesh
+- https://www.mixamo.com/ -> Y-Bot
+
 ## Next Steps
 - Clean up the project of all unnecessary things.
 - Modify the HTML Template
