@@ -656,7 +656,7 @@ Transform:
   m_Children:
   - {fileID: 1612525902}
   m_Father: {fileID: 951408380}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &746773642
 MonoBehaviour:
@@ -749,10 +749,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
+  - {fileID: 746773641}
+  - {fileID: 1346860236}
   - {fileID: 1030002435}
   - {fileID: 1170948891}
-  - {fileID: 1346860236}
-  - {fileID: 746773641}
   m_Father: {fileID: 543450653379000519}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -787,7 +787,7 @@ Transform:
   - {fileID: 615454473}
   - {fileID: 1400596275}
   m_Father: {fileID: 951408380}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1030002436
 MonoBehaviour:
@@ -996,7 +996,7 @@ Transform:
   - {fileID: 124178504}
   - {fileID: 1254314237}
   m_Father: {fileID: 951408380}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1170948892
 MonoBehaviour:
@@ -1177,7 +1177,7 @@ Transform:
   m_Children:
   - {fileID: 1524051561}
   m_Father: {fileID: 951408380}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1346860237
 MonoBehaviour:
@@ -1353,7 +1353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524051560}
   m_LocalRotation: {x: 0.0000000740131, y: 0.00000010179579, z: -0.000043633023, w: 1}
-  m_LocalPosition: {x: 0.00044536905, y: 16.00753, z: -0.034072183}
+  m_LocalPosition: {x: 0, y: 16.00753, z: 0.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1346860236}
@@ -1368,6 +1368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1612525902}
+  - component: {fileID: 1612525903}
   m_Layer: 0
   m_Name: HipYRotTarget
   m_TagString: Untagged
@@ -1389,6 +1390,21 @@ Transform:
   m_Father: {fileID: 746773641}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1612525903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612525901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab7c28d88f569640b7835d20c85ccd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hipTarget: {fileID: 1612525902}
+  headTarget: {fileID: 1524051561}
+  rotationSpeed: 100
 --- !u!1 &1684208109
 GameObject:
   m_ObjectHideFlags: 0
