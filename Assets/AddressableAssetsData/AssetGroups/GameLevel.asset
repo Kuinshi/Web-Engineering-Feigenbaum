@@ -16,11 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b4ced21e5c9ff4245a25bd8b8cd13267
-  m_SerializeEntries:
-  - m_GUID: 71e4ddeea74bd124dbf99d3c86bfc4f8
-    m_Address: Assets/Prefabs/Addressables/SceneStuff.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4414e5faa4f968d4b85d65886926d5ad, type: 2}
   m_SchemaSet:
