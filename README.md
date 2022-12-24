@@ -22,10 +22,6 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ### Character Mesh
 - https://www.mixamo.com/ -> Y-Bot
 
-## Next Steps
-- Clean up the project of all unnecessary things.
-- Modify the HTML Template
-  - Make AR Button unavailable
-  - Try to have the VR Button in game
-  - Add a fullscreen Button for PC Players
-- Test
+## Tools used
+- https://playfab.com/ for storing persistent User Data
+- https://aws.amazon.com/de/ AWS S3 Bucket for storing built Addressable Packages
