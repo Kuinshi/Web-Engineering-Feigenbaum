@@ -29,7 +29,6 @@ namespace Characters.Titan
             headPosition = data.vrHeadPosition;
         }
         
-        // NOTE: I THINK THIS ONLY WORKS BECAUSE TITAN IS ALWAYS HOST
         private void LateUpdate()
         {
             shouldMove = Vector3.Distance(head.position, headPosition) > maxDistance;
