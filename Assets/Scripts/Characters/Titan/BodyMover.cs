@@ -4,26 +4,35 @@ using UnityEngine;
 
 namespace Characters.Titan
 {
-    [DefaultExecutionOrder(-1000)]
     public class BodyMover : NetworkBehaviour
     {
         [SerializeField] private Transform head;
         [SerializeField] private float maxDistance;
         [SerializeField] private float moveSpeed;
 
-        
+        private Vector3 headPosition;
+        private bool shouldMove;
+
         public override void FixedUpdateNetwork()
         {
             if (!GetInput(out NetworkInputData data))
                 return;
 
-            if (Vector3.Distance(head.position, data.vrHeadPosition) < maxDistance)
-                return;
+            if (shouldMove)
+            {
+                Vector3 movementVector = headPosition - head.position;
+                movementVector.y = 0;
+                Vector3 targetPos = movementVector + transform.position;
+                transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * moveSpeed);
+            }
 
-            Vector3 movementVector = data.vrHeadPosition - head.position;
-            movementVector.y = 0;
-            Vector3 targetPos = movementVector + transform.position;
-            transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * moveSpeed);
+            headPosition = data.vrHeadPosition;
+        }
+        
+        // NOTE: I THINK THIS ONLY WORKS BECAUSE TITAN IS ALWAYS HOST
+        private void LateUpdate()
+        {
+            shouldMove = Vector3.Distance(head.position, headPosition) > maxDistance;
         }
     }
 }

@@ -420,10 +420,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  headTarget: {fileID: 0}
   head: {fileID: 3754964173138917065}
-  maxDistance: 1
-  moveSpeed: 50
+  maxDistance: 7
+  moveSpeed: 1
+  headTransform: {fileID: 0}
 --- !u!114 &2231649443516828227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,7 +826,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  followObject: {fileID: 0}
   positionOffset: {x: 0, y: 0, z: 0}
   rotationOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &6837616161437825737
@@ -1162,7 +1161,6 @@ MonoBehaviour:
   _interpolationDataSource: 0
   isLeftHand: 1
   rb: {fileID: 1395382478674883142}
-  followObject: {fileID: 0}
   positionOffset: {x: 0, y: 0, z: -1}
   handMovespeed: 777
   rotationOffset: {x: 0, y: 90, z: 90}
@@ -1611,7 +1609,6 @@ MonoBehaviour:
   _interpolationDataSource: 0
   isLeftHand: 0
   rb: {fileID: 1395382479284032939}
-  followObject: {fileID: 0}
   positionOffset: {x: 0, y: 0, z: -1}
   handMovespeed: 777
   rotationOffset: {x: 180, y: 90, z: 90}
