@@ -5,6 +5,7 @@ using Networking;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using WebXR;
 
 namespace UIScripts
 {
@@ -109,6 +110,11 @@ namespace UIScripts
 
         public void StartGame()
         {
+#if !UNITY_EDITOR
+            Debug.Log("Trying to enter VR");
+            if(PlayerObject.Local != null && PlayerObject.Local.IsTitan)
+                WebXRManager.Instance.ToggleVR();
+#endif
             NetworkRunnerManager.Instance.Runner.SetActiveScene("02_Game");
             
             var playerListItems = FindObjectsOfType<PlayerListItem>();
