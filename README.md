@@ -10,7 +10,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://assetstore.unity.com/packages/2d/fonts/fatality-fps-gaming-font-216954
 - https://assetstore.unity.com/packages/tools/utilities/webgl-optimizer-230446
 - https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
-https://assetstore.unity.com/packages/vfx/shaders/ultra-skybox-fog-115414
+- https://assetstore.unity.com/packages/vfx/shaders/ultra-skybox-fog-115414
 
 
 ## External Code Assets used
@@ -28,3 +28,4 @@ https://assetstore.unity.com/packages/vfx/shaders/ultra-skybox-fog-115414
 ## Tools used
 - https://playfab.com/ for storing persistent User Data
 - https://aws.amazon.com/de/ AWS S3 Bucket for storing built Addressable Packages
+- https://doc.photonengine.com/en-us/fusion/current/getting-started/fusion-intro Photon Fusion for in-game Networking

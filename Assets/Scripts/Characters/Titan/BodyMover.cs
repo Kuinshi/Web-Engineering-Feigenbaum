@@ -1,16 +1,23 @@
+using Fusion;
 using UnityEngine;
 
 namespace Characters.Titan
 {
-    public class BodyMover : MonoBehaviour
+    public class BodyMover : NetworkBehaviour
     {
-        [SerializeField] private Transform headTarget;
+        public Transform headTarget;
         [SerializeField] private Transform head;
         [SerializeField] private float maxDistance;
         [SerializeField] private float moveSpeed;
 
-        private void Update()
+        public override void FixedUpdateNetwork()
         {
+            if (headTarget == null)
+                return;
+            Debug.Log("Fixed Update Network is run!");
+
+            
+            
             if (Vector3.Distance(head.position, headTarget.position) < maxDistance)
                 return;
 

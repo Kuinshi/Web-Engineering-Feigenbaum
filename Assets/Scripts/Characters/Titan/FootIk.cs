@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Fusion;
+using UnityEngine;
 
 namespace Characters.Titan
 {
@@ -6,7 +7,7 @@ namespace Characters.Titan
     /// <summary>
     /// Source: https://www.youtube.com/watch?v=1Xr3jB8ik1g - But modified to work in all direction - still a bit wonky though, but thats why we hide the feet with water :P
     /// </summary>
-    public class FootIk : MonoBehaviour
+    public class FootIk : NetworkBehaviour
     {
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private Transform body;
@@ -27,8 +28,14 @@ namespace Characters.Titan
             lerp = 1;
         }
 
-        private void Update()
+        public override void FixedUpdateNetwork()
         {
+            return;
+            Debug.Log($"Has Input Authority {HasInputAuthority}; Has State Authority {HasStateAuthority}");
+
+            
+            
+            
             transform.position = currentPos + footPosOffset;
             Vector3 newLocalRot = baseLocalRot;
             newLocalRot.y += body.localRotation.eulerAngles.y;

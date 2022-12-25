@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Fusion;
 using Helpers.Linq;
+using Manager;
 using UnityEngine;
 
 namespace Networking
@@ -39,7 +40,18 @@ namespace Networking
 			OnPlayerJoined = OnPlayerLeft = null;
 		}
 
-		bool GetAvailable(out byte index)
+		public PlayerObject GetLocalPlayerObject()
+		{
+			PlayerObject po = ObjectByRef[NetworkRunnerManager.Instance.Runner.LocalPlayer];
+			
+			if (po != null)
+				return po;
+			
+			Debug.LogWarning("Did not find Local Player Object!");
+			return null;
+		}
+
+		private bool GetAvailable(out byte index)
 		{
 			if (ObjectByRef.Count == 0)
 			{
@@ -88,6 +100,18 @@ namespace Networking
 		{
 			Debug.Log("Player Registry shoudl Trigger Player Joined Event for " + player);
 			OnPlayerJoined?.Invoke(Instance.Runner, player);
+		}
+		
+		void INetworkRunnerCallbacks.OnPlayerLeft(NetworkRunner runner, PlayerRef player)
+		{
+			if (runner.IsServer)
+			{
+				Server_Remove(runner, player);
+				Debug.Log("Trying to despawn disconnected Player character");
+				if(ObjectByRef[player].playerCharacter != null)
+					runner.Despawn(ObjectByRef[player].playerCharacter);
+			}
+			OnPlayerLeft?.Invoke(Runner, player);
 		}
 
 		public static void Server_Remove(NetworkRunner runner, PlayerRef pRef)
@@ -225,12 +249,6 @@ namespace Networking
 		}
 
 		#endregion
-
-		void INetworkRunnerCallbacks.OnPlayerLeft(NetworkRunner runner, PlayerRef player)
-		{
-			if (runner.IsServer) Server_Remove(runner, player);
-			OnPlayerLeft?.Invoke(Runner, player);
-		}
 
 		#region INetworkRunnerCallbacks
 

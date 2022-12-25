@@ -35,7 +35,8 @@ namespace UIScripts
 
         public override void Despawned(NetworkRunner runner, bool hasState)
         {
-            Player.OnStatChanged -= UpdateStats;
+            if(Player != null)
+                Player.OnStatChanged -= UpdateStats;
         }
 
         private void UpdateStats()

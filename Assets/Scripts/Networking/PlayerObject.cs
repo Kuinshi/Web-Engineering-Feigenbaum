@@ -26,6 +26,7 @@ namespace Networking
 		
 		// State & Gameplay Info
 		[Networked] public bool IsLoaded { get; set; }
+		public NetworkObject playerCharacter;
 
 		
 		// Events
