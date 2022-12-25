@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8262564919169746998}
   - component: {fileID: 6884735793647647371}
   - component: {fileID: 2196850835297273328}
+  - component: {fileID: 5105666683313808589}
   m_Layer: 0
   m_Name: PlayerDummyTest
   m_TagString: Untagged
@@ -119,8 +120,23 @@ MonoBehaviour:
   NetworkGuid:
     RawGuidValue: 6aa269f7c90a8d0408aaed3d7bdd1803
   NestedObjects: []
-  NetworkedBehaviours: []
+  NetworkedBehaviours:
+  - {fileID: 5105666683313808589}
   SimulationBehaviours: []
+--- !u!114 &5105666683313808589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967613358159881579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faea5a03875de964d841de5af9b81b38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  fpsCamera: {fileID: 8795752351935982402}
 --- !u!1 &8795752351935982402
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9058434975428102494
 Transform:
   m_ObjectHideFlags: 0

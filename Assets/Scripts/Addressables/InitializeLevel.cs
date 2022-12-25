@@ -33,8 +33,8 @@ namespace Addressables
             if (NetworkRunnerManager.Instance.Runner.IsServer)
                 SpawnCharacters();
 
-            var localPLayer = PlayerRegistry.Instance.GetLocalPlayerObject();
-            if(localPLayer == null || localPLayer.IsTitan)
+            var localPLayer = PlayerObject.Local;
+            if(localPLayer == null || !localPLayer.IsTitan)
             {
                 Debug.Log("Disabling Web VR Rig is local Player is a Jaeger");
                 WebVRRig.Instance.gameObject.SetActive(false);

@@ -1,4 +1,5 @@
 ﻿using Fusion;
+using Networking;
 using UnityEngine;
 
 namespace Characters.Titan
@@ -30,12 +31,9 @@ namespace Characters.Titan
 
         public override void FixedUpdateNetwork()
         {
-            return;
-            Debug.Log($"Has Input Authority {HasInputAuthority}; Has State Authority {HasStateAuthority}");
+            if (!GetInput(out NetworkInputData data))
+                return;
 
-            
-            
-            
             transform.position = currentPos + footPosOffset;
             Vector3 newLocalRot = baseLocalRot;
             newLocalRot.y += body.localRotation.eulerAngles.y;

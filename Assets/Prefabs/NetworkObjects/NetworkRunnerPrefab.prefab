@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5892974933673812559}
   - component: {fileID: 5853108183990543221}
   - component: {fileID: 7727761874947423857}
+  - component: {fileID: 5485512477752802307}
   - component: {fileID: 2879021553452526537}
   - component: {fileID: 2058611875012079622}
-  - component: {fileID: 3735842016466923487}
   - component: {fileID: 976118145790340036}
   m_Layer: 0
   m_Name: NetworkRunnerPrefab
@@ -63,6 +63,18 @@ MonoBehaviour:
   PlayerPrefab: {fileID: 3940951993313225704, guid: 72382d819a4f1d34aadfee98d692cc8c, type: 3}
   SpawnMethod: 0
   StateAuthority: 0
+--- !u!114 &5485512477752802307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7714362496720033976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5ad422c5f34214f8d0e2a2c441dd3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2879021553452526537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,18 +106,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowHierarchyWindowOverlay: 1
   PostLoadDelayFrames: 1
---- !u!114 &3735842016466923487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7714362496720033976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3bfdb733d449574a8f4796094d35a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &976118145790340036
 MonoBehaviour:
   m_ObjectHideFlags: 0

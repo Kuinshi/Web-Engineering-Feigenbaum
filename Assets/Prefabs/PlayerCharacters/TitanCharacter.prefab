@@ -1160,6 +1160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  isLeftHand: 1
   rb: {fileID: 1395382478674883142}
   followObject: {fileID: 0}
   positionOffset: {x: 0, y: 0, z: -1}
@@ -1608,6 +1609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  isLeftHand: 0
   rb: {fileID: 1395382479284032939}
   followObject: {fileID: 0}
   positionOffset: {x: 0, y: 0, z: -1}

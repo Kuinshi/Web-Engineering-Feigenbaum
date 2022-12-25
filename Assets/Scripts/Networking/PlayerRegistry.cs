@@ -40,17 +40,6 @@ namespace Networking
 			OnPlayerJoined = OnPlayerLeft = null;
 		}
 
-		public PlayerObject GetLocalPlayerObject()
-		{
-			PlayerObject po = ObjectByRef[NetworkRunnerManager.Instance.Runner.LocalPlayer];
-			
-			if (po != null)
-				return po;
-			
-			Debug.LogWarning("Did not find Local Player Object!");
-			return null;
-		}
-
 		private bool GetAvailable(out byte index)
 		{
 			if (ObjectByRef.Count == 0)

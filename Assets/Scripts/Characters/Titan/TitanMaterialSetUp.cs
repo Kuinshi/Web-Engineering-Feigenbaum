@@ -16,7 +16,7 @@ namespace Characters.Titan
 
         public void Start()
         {
-            PlayerObject localPlayerObject = PlayerRegistry.Instance.GetLocalPlayerObject();
+            PlayerObject localPlayerObject = PlayerObject.Local;
             if(localPlayerObject.IsTitan)
                 SetUpAsTitan();
             else

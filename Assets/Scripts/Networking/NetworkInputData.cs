@@ -3,9 +3,11 @@ using UnityEngine;
 
 namespace Networking
 {
-    public struct TitanNetworkInputData : INetworkInput
+    public struct NetworkInputData : INetworkInput
     {
-        public Vector3 headPosition;
+        #region TitanPlayer
+
+        public Vector3 vrHeadPosition;
         public Quaternion headRotation;
 
         public Vector3 leftHandPosition;
@@ -13,5 +15,8 @@ namespace Networking
         
         public Vector3 rightHandPosition;
         public Quaternion rightHandRotation;
+
+        #endregion
+
     }
 }
