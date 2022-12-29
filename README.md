@@ -23,7 +23,11 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 
 ### Character Mesh
-- https://www.mixamo.com/ -> Y-Bot
+- https://www.mixamo.com/ -> Y-Bot and X-Bot, plus Gun Holding Run, Idle and Jump Animation
+
+### Gun Models
+- Copyright/Attribution Notice: 
+  Gun models By TastyTony (https://sketchfab.com/TastyTony) and Pichuliru (https://www.patreon.com/Pichuliru) licensed under CC Attribution 4.0
 
 ## Tools used
 - https://playfab.com/ for storing persistent User Data
