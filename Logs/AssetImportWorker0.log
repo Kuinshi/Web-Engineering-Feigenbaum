@@ -5548,3 +5548,135 @@ Received Import Request.
 Start importing Assets/Models/Guns/P90/Black.mat using Guid(06ebaaeb3eda99c47b592373fca0f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577ddcaebefefe6a7ede6f9668152990') in 0.019110 seconds 
   Import took 0.026419 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1084.859516 seconds.
+  path: Assets/Scenes/TestGameScene.unity
+  artifactKey: Guid(e73c027d126e6de4995e170349e568e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestGameScene.unity using Guid(e73c027d126e6de4995e170349e568e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22186c8ce6c228c5a977baead6497a6') in 0.009268 seconds 
+  Import took 0.016864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.318579 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(c0b0be682494638489bbfa9f2a69b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(c0b0be682494638489bbfa9f2a69b05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcecaf5ba3a5908a363618b116fd919') in 0.008399 seconds 
+  Import took 0.015993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940543 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(13bb1db88286e6b4ca777aed99404d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer using Guid(13bb1db88286e6b4ca777aed99404d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f727b381869ea600dc08bfe9a53600b0') in 0.024524 seconds 
+  Import took 0.032097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(b729a8d5995c32d4fabc0fb6c6b48efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer using Guid(b729a8d5995c32d4fabc0fb6c6b48efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c478066d77d6014fa51caebb6582a49d') in 0.017077 seconds 
+  Import took 0.023716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground5-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(2de67761dcb7e3f439634f1c99b4bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground5-1b3407d0e55802f81.terrainlayer using Guid(2de67761dcb7e3f439634f1c99b4bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa369d0cb3d685b2d402861f336e45d') in 0.015752 seconds 
+  Import took 0.022443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass3-2b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(eaa7f6a66eda3ec428cf22a216b6dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass3-2b3407d0e55802f81.terrainlayer using Guid(eaa7f6a66eda3ec428cf22a216b6dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e94bb88cfd6073fa4ec2a7c1807f9ce') in 0.014407 seconds 
+  Import took 0.021124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Road3-2b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(31f3e8ba437b33f4cbd8e4a0ca270b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Road3-2b3407d0e55802f81.terrainlayer using Guid(31f3e8ba437b33f4cbd8e4a0ca270b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff1956acc3712bc7a86c4c785e38b8') in 0.020836 seconds 
+  Import took 0.028623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass3-3b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(691ca8ae5cf9b1c48bebf486c66e2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass3-3b3407d0e55802f81.terrainlayer using Guid(691ca8ae5cf9b1c48bebf486c66e2932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddec3fc0909e7c321f493eda02986e1') in 0.020258 seconds 
+  Import took 0.028664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Road3-3b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(382932e12859ebd4d9693231ec5ea315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Road3-3b3407d0e55802f81.terrainlayer using Guid(382932e12859ebd4d9693231ec5ea315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a3ab900d1dbf2d67c97adf1732f47') in 0.016667 seconds 
+  Import took 0.024124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.770627 seconds.
+  path: Assets/SkythianCat
+  artifactKey: Guid(5f20c60874c22b044b3c824d2d54b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat using Guid(5f20c60874c22b044b3c824d2d54b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f6bcd4e988ff54a2e7a9d72ef9d423') in 0.008474 seconds 
+  Import took 0.015776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.563434 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE
+  artifactKey: Guid(605a6b0b24c0a8245b8935c724e73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE using Guid(605a6b0b24c0a8245b8935c724e73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f3d9c98afe4fbcf547f72835503b14') in 0.008635 seconds 
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236139 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO
+  artifactKey: Guid(5cc3cd485f322314598b373aae497c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO using Guid(5cc3cd485f322314598b373aae497c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fff06df470986152098bca54342f76') in 0.009120 seconds 
+  Import took 0.016997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050581 seconds.
+  path: Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset
+  artifactKey: Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset using Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
+Stack trace:
+0x00007ff626f7a92a (Unity) CreateAssetToGUIDMappingV2
+0x00007ff626f1f8e0 (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff6264cbb05 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff6264ca7c0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff6264c76dc (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff626505ad6 (Unity) TerrainData::AwakeFromLoad
+0x00007ff6261035af (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff626103f42 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6261040a3 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6260d6ad1 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff6260d7617 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff6260dac12 (Unity) PersistentManager::ReadObject
+0x00007ff626f18431 (Unity) WritePreviews
+0x00007ff626f14dae (Unity) PreviewImporter::GenerateAssetData
+0x00007ff626fb5d22 (Unity) ImportToObjects
+0x00007ff626fb4d98 (Unity) ImportAsset
+0x00007ff626f4f0f8 (Unity) AssetImportWorker::Import
+0x00007ff626f747da (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff626ffbee2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff626ffe040 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff6270017be (Unity) asio::io_service::run
+0x00007ff626f9d4db (Unity) RunAssetImportWorkerClientV2
+0x00007ff626f9d530 (Unity) RunAssetImporterV2
+0x00007ff626a43a89 (Unity) Application::InitializeProject
+0x00007ff626e99722 (Unity) WinMain
+0x00007ff6285295ce (Unity) __scrt_common_main_seh
+0x00007ffe7fde7614 (KERNEL32) BaseThreadInitThunk
+0x00007ffe814a26a1 (ntdll) RtlUserThreadStart
+

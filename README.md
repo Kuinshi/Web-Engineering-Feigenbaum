@@ -29,6 +29,11 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - Copyright/Attribution Notice: 
   Gun models By TastyTony (https://sketchfab.com/TastyTony) and Pichuliru (https://www.patreon.com/Pichuliru) licensed under CC Attribution 4.0
 
+### Other
+- Crate & Barrel: https://opengameart.org/content/crate-barrel-bundle
+- Rocks: https://opengameart.org/content/handpainted-style-rocks
+- Ground Textures: https://opengameart.org/content/handpainted-rock-textures
+
 ## Tools used
 - https://playfab.com/ for storing persistent User Data
 - https://aws.amazon.com/de/ AWS S3 Bucket for storing built Addressable Packages
