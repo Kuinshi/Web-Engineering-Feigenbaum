@@ -25,6 +25,9 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ### Character Mesh
 - https://www.mixamo.com/ -> Y-Bot and X-Bot, plus Gun Holding Run, Idle and Jump Animation
 
+### Jetpack Model
+- https://sketchfab.com/3d-models/mandalorian-jetpack-fortnite-25d6c237c86941e1abadf3e58dc61099#download
+
 ### Gun Models
 - Copyright/Attribution Notice: 
   Gun models By TastyTony (https://sketchfab.com/TastyTony) and Pichuliru (https://www.patreon.com/Pichuliru) licensed under CC Attribution 4.0
