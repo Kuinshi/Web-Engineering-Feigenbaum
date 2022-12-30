@@ -187,3 +187,970 @@ Received Import Request.
 Start importing Assets/Models/Jetpack/MI_Cosmos_JetPack_normal.png using Guid(54b6cf0fb54acae4299c180671b77d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c42fe5fd085d65c3d3d1029fe9e9d1') in 0.016792 seconds 
   Import took 0.023493 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 585.422431 seconds.
+  path: Assets/VFXTut
+  artifactKey: Guid(972c156f78c7fcf40adaa5159002763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXTut using Guid(972c156f78c7fcf40adaa5159002763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6895ca04d1a1b6faeff4ddf3cff1d1') in 0.008023 seconds 
+  Import took 0.016610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689906 seconds.
+  path: Assets/VFX
+  artifactKey: Guid(972c156f78c7fcf40adaa5159002763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX using Guid(972c156f78c7fcf40adaa5159002763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed2013aeebac6de2bfd83e91e5d668') in 0.007248 seconds 
+  Import took 0.013715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.300145 seconds.
+  path: Assets/LeanTween
+  artifactKey: Guid(50e15854a8e906647b55a32ab6686379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween using Guid(50e15854a8e906647b55a32ab6686379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f0203699c3e4a5cc441ab0dc2acfbb') in 0.007405 seconds 
+  Import took 0.014415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.606646 seconds.
+  path: Assets/LeanTween/Examples
+  artifactKey: Guid(e57e6979dd11f9748baa28286f934134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples using Guid(e57e6979dd11f9748baa28286f934134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e6ae8b2e9da4c832a0e5484c00715d') in 0.007371 seconds 
+  Import took 0.014459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589116 seconds.
+  path: Assets/LeanTween/Examples/Textures
+  artifactKey: Guid(e0d9e397b655b7747915dcdd6693abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures using Guid(e0d9e397b655b7747915dcdd6693abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ac196b9a46aca123d1d70672a02c16') in 0.007646 seconds 
+  Import took 0.015483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044949 seconds.
+  path: Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg
+  artifactKey: Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg using Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef153ab5d4557e0f7f7833c87e8b61d8') in 0.016702 seconds 
+  Import took 0.023416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.707352 seconds.
+  path: Assets/VFX/Textures
+  artifactKey: Guid(c98b4fb83ed1693408f1115ae4a41535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Textures using Guid(c98b4fb83ed1693408f1115ae4a41535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b944488aaf4cc8fb952de51d36a23acc') in 0.006088 seconds 
+  Import took 0.012836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054073 seconds.
+  path: Assets/VFX/Textures/ProjectileImpact_BG.png
+  artifactKey: Guid(01841db92f75bf248aafe2016ca05112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Textures/ProjectileImpact_BG.png using Guid(01841db92f75bf248aafe2016ca05112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e34105eec35149d118596e370d7e565') in 0.019188 seconds 
+  Import took 0.026190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/VFX/Textures/TrailBlack.png
+  artifactKey: Guid(d5e3011077211d341986c0abb9325e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Textures/TrailBlack.png using Guid(d5e3011077211d341986c0abb9325e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a290cc6864918727a33125680b01f24') in 0.013662 seconds 
+  Import took 0.019879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.328362 seconds.
+  path: Assets/VFX/Textures/ProjectileImpact_BG.png
+  artifactKey: Guid(01841db92f75bf248aafe2016ca05112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Textures/ProjectileImpact_BG.png using Guid(01841db92f75bf248aafe2016ca05112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2442c5ad70fc3015717500f177af5b4') in 0.013255 seconds 
+  Import took 0.020425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/VFX/Textures/TrailBlack.png
+  artifactKey: Guid(d5e3011077211d341986c0abb9325e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Textures/TrailBlack.png using Guid(d5e3011077211d341986c0abb9325e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b770393a9e6e533b16d21662fd4dac2') in 0.013438 seconds 
+  Import took 0.020126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.760744 seconds.
+  path: Assets/VFX/Shaders
+  artifactKey: Guid(268616663463a3a42aa6b160158b9431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Shaders using Guid(268616663463a3a42aa6b160158b9431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb387a37ceb98665d34f4fa69570773') in 0.008007 seconds 
+  Import took 0.014894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747642 seconds.
+  path: Assets/VFX/Shaders/ParticlesAddScrolling_HDR.shadergraph
+  artifactKey: Guid(25b4d9202ec8c624f83d1396409ff579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Shaders/ParticlesAddScrolling_HDR.shadergraph using Guid(25b4d9202ec8c624f83d1396409ff579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f08f24d207793d0c628a15b7bd09a') in 0.010978 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145440 seconds.
+  path: Assets/VFX/Prefabs
+  artifactKey: Guid(d7ace1b43df541348bb7b831a77571c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs using Guid(d7ace1b43df541348bb7b831a77571c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7866068e73854e0fed91172708d0771') in 0.007326 seconds 
+  Import took 0.015024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657014 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX
+  artifactKey: Guid(30dc09751c6f63345b9c0d4ec48f550b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX using Guid(30dc09751c6f63345b9c0d4ec48f550b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de57847ced1e43b290fd2a02bad362c') in 0.007211 seconds 
+  Import took 0.013868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.086051 seconds.
+  path: Assets/VFX/Mesh
+  artifactKey: Guid(cd16c296362d15447b2b776ba4d6d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Mesh using Guid(cd16c296362d15447b2b776ba4d6d37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86bb1874ba3495e4ceec9273a483b09') in 0.007962 seconds 
+  Import took 0.016002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049039 seconds.
+  path: Assets/VFX/Mesh/MuzzleMesh.fbx
+  artifactKey: Guid(971c1a850f868cc4ab8c4f6f42739edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Mesh/MuzzleMesh.fbx using Guid(971c1a850f868cc4ab8c4f6f42739edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46692f65eac7d5ddc900c641efe7c02') in 0.021159 seconds 
+  Import took 0.027770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.877114 seconds.
+  path: Assets/VFX/Materials
+  artifactKey: Guid(83a4b6e8deb5b4344b29eaad49394c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Materials using Guid(83a4b6e8deb5b4344b29eaad49394c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a2ad13df5e38c0be1082e50f5b1349') in 0.007130 seconds 
+  Import took 0.014473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014779 seconds.
+  path: Assets/VFX/Materials/Beam01_Add.mat
+  artifactKey: Guid(8f2b527f457373f41a5025e2eda82e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Materials/Beam01_Add.mat using Guid(8f2b527f457373f41a5025e2eda82e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93570969d4573020a90f38551cf23a65') in 0.413268 seconds 
+  Import took 0.420032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/VFX/Materials/ProjectileImpact_AddScroll.mat
+  artifactKey: Guid(acaa455fee485c54aa99901bae6876ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Materials/ProjectileImpact_AddScroll.mat using Guid(acaa455fee485c54aa99901bae6876ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9714a2416a49e2bc62bdeae4c5261991') in 0.238260 seconds 
+  Import took 0.244515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.010168 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290c556158fb3da75354c53a5a1fecb') in 0.042472 seconds 
+  Import took 0.049758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 412.080962 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4fdefec9be30fbfd34f0248562edb5') in 0.019340 seconds 
+  Import took 0.027722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.955950 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93da7fac92123f28a539c2cf57d958cf') in 0.018743 seconds 
+  Import took 0.026315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.281685 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75df8d178d56bbdac2b30876e2fdf71') in 0.020172 seconds 
+  Import took 0.028297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.380133 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54968e05e586962f7f05f0d651e4e0c4') in 0.020715 seconds 
+  Import took 0.028884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.752485 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeb0df40ddb912ba819eaf638118555') in 0.018333 seconds 
+  Import took 0.025868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.807837 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381a976d0c4c75a0b78bea6d5cefedbb') in 0.016198 seconds 
+  Import took 0.023384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.760462 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3095321c24aef12b032fcc7f51558753') in 0.018196 seconds 
+  Import took 0.025813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.647780 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa10d0aa16c8d64ce3f7bca3436ac7') in 0.016014 seconds 
+  Import took 0.023602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.209924 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dcfce22cfae5f77f78bc966571c253') in 0.018634 seconds 
+  Import took 0.026863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396632 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd810761d83981486cd1069d206031c') in 0.016122 seconds 
+  Import took 0.024362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185138 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cf60b1ce0e552abc93ebce6ace682f') in 0.016558 seconds 
+  Import took 0.024486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.289593 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df6f4a046d974d0892ae310a900c85b') in 0.016245 seconds 
+  Import took 0.024081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.079900 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ea1a59d2b66f35bdd19d4ffd94caad') in 0.015667 seconds 
+  Import took 0.023095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.566611 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c384775498372fdd3b4ffa629e882ac') in 0.007419 seconds 
+  Import took 0.014447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.075585 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b4a732eb8573dbf5881b26113eef6e') in 0.018431 seconds 
+  Import took 0.026331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.798144 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daf8c22e780036e24136688ae2ab219') in 0.017259 seconds 
+  Import took 0.025526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.677199 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7a687adab00a63b8c5eb7ba388b5a8') in 0.015912 seconds 
+  Import took 0.023215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.553778 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b4e4fee73c6a0ca2eb0d940b7b2723') in 0.017374 seconds 
+  Import took 0.024901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.185575 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eb54c599e994314ff9763a4a3f8fb3') in 0.015438 seconds 
+  Import took 0.022744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.038184 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae4653bde3ddac698c24b79b0bc08ba') in 0.016717 seconds 
+  Import took 0.023950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.744542 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6254be7e9dbe13cb08919af6c1aeb280') in 0.015449 seconds 
+  Import took 0.023500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.447438 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5090f722bd554e890748477d1df646') in 0.016220 seconds 
+  Import took 0.024514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.874384 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bad7c791a388aaefc8615122db431c') in 0.014377 seconds 
+  Import took 0.021484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.593094 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d9dd7b809c23869d09506f2d9761c7') in 0.008007 seconds 
+  Import took 0.015247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.333088 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5882860e521eca1d825920949ca1cc') in 0.017214 seconds 
+  Import took 0.025017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.782717 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c9188c620467283332662dbffc0031') in 0.017683 seconds 
+  Import took 0.025284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612050 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830d2c63768df9867353c945cdfd02e9') in 0.017786 seconds 
+  Import took 0.026187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.951794 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecbb864c04e47f532f35f76c9acfec1') in 0.018128 seconds 
+  Import took 0.026255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.448547 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4895c0931db7f2cd6869502d895138') in 0.082697 seconds 
+  Import took 0.091189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.247720 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f6d39835b37e30adb7a57a5c793652') in 0.017353 seconds 
+  Import took 0.025604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.424489 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244f9f09dabb7bd2ac592c33056fad0c') in 0.015964 seconds 
+  Import took 0.023496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.847686 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21605339463eb0557c49b463f0addf0') in 0.018961 seconds 
+  Import took 0.026666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.705535 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ad81f6669c7bea56706d3952d41f36') in 0.015994 seconds 
+  Import took 0.023552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.123633 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6cd7828f23cfba03e63ea0ed8584e0') in 0.017411 seconds 
+  Import took 0.025467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.983335 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aea3980ce79e300fae9a1db33401d98') in 0.016376 seconds 
+  Import took 0.024625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.949849 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1a411ccf116804d07fb8b25f3f219c') in 0.016863 seconds 
+  Import took 0.024455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.415980 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2477a1fbfbd40d0106554e05273bef7') in 0.016605 seconds 
+  Import took 0.024196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.359064 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39236b671eed2e32fe780e9300e54f59') in 0.017012 seconds 
+  Import took 0.026967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.059927 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e64bc4ea074fa81cce0c0b6a7de9d1') in 0.027850 seconds 
+  Import took 0.035040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.851956 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbda7f054985f322be96cbfbe38e89c') in 0.015928 seconds 
+  Import took 0.023517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.968258 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3a238d4cde1426a1d18c333d64d5f1') in 0.016330 seconds 
+  Import took 0.024146 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.792086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.340 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2341ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2052ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (935ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (760ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3655 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4361.
+Total: 7.013200 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.127200 ms MarkObjects: 6.340100 ms  DeleteObjects: 0.043300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146.499979 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0728546f35cd92c83f87a116ecb5250') in 0.194744 seconds 
+  Import took 0.202673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.251732 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968faf5325bee939128e04c07c59eb90') in 0.015097 seconds 
+  Import took 0.022790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.108851 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d78b6314c3628f6deed5d7d2564a8') in 0.014997 seconds 
+  Import took 0.022242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.276450 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2126501108a8348dd073d860ed78c6') in 0.013768 seconds 
+  Import took 0.020985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1901ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1649ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.9 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4400.
+Total: 6.025400 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.227300 ms MarkObjects: 5.324400 ms  DeleteObjects: 0.041100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1878ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1643ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4403.
+Total: 6.107100 ms (FindLiveObjects: 0.463300 ms CreateObjectMapping: 0.127000 ms MarkObjects: 5.471900 ms  DeleteObjects: 0.042600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157.039691 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45068989473e7d2c7d96883e0ead8457') in 0.186704 seconds 
+  Import took 0.194285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.260286 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ca2ac20c4c435cb990b425132c540f') in 0.016089 seconds 
+  Import took 0.024113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282981 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85323f62d1baca32f0a577b0791ce6c') in 0.024778 seconds 
+  Import took 0.032653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.309889 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eae55bf4b35daf7ef91d87be4fefcd') in 0.015013 seconds 
+  Import took 0.022277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.391794 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e3f8458e783356d5fb2218917bfd66') in 0.016105 seconds 
+  Import took 0.024227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.418553 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdcfe1a143af2f9266948171caab599') in 0.015132 seconds 
+  Import took 0.022995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.206488 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322a12a4e9e8ca30e913f5097c8268b6') in 0.015080 seconds 
+  Import took 0.022679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.660381 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe249372dbcb1d29cfe80aecf6884e5') in 0.014187 seconds 
+  Import took 0.021621 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.67 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2249ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1987ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (934ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4442.
+Total: 6.352700 ms (FindLiveObjects: 0.477300 ms CreateObjectMapping: 0.247400 ms MarkObjects: 5.575000 ms  DeleteObjects: 0.051100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.489223 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e303203239aae690dee97ee9f021557d') in 0.190009 seconds 
+  Import took 0.197711 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1669ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (751ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (594ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.59 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4481.
+Total: 6.050100 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.212300 ms MarkObjects: 5.326500 ms  DeleteObjects: 0.040800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.945917 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e47ce3576a2ff51720f04d3a1fcacc') in 0.181422 seconds 
+  Import took 0.189971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741380 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f671a0d636abee1f5c3c8c785cfd0c') in 0.015035 seconds 
+  Import took 0.022927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.993387 seconds.
+  path: Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab
+  artifactKey: Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Prefabs/JetpackVFX/VFX_Jetpack_Hand.prefab using Guid(9ee53aa88e7b5fc478f0bcce5e2fc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c230eb4cfafb1e90741c36543584f8') in 0.014507 seconds 
+  Import took 0.021542 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1919ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1658ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (738ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (577ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4520.
+Total: 6.349400 ms (FindLiveObjects: 0.489800 ms CreateObjectMapping: 0.126700 ms MarkObjects: 5.683200 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
