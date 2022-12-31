@@ -1,4 +1,3 @@
-using System.Collections;
 using Fusion;
 using Networking;
 using UnityEngine;
@@ -16,7 +15,14 @@ namespace Characters.Jaeger
         [SerializeField] private Collider groundCheckBox;
         [SerializeField] private LayerMask groundLayer;
 
+        [SerializeField] private Animator animator;
+        [SerializeField] private float lerpSpeed;
+
+        [SerializeField] private Transform rotator;
+        
+
         private bool lastFrameGrounded;
+        private float lastFrameSpeed;
 
         private void Start()
         {
@@ -89,7 +95,25 @@ namespace Characters.Jaeger
 
         private void HandleAnimation(Vector3 movementDirection, bool grounded)
         {
+            float targetSpeed = movementDirection.magnitude;
+            if (targetSpeed > 1)
+                targetSpeed = 1;
+
+            float oldSpeed = animator.GetFloat("Blend");
+
+            animator.SetFloat("Blend", Mathf.Lerp(oldSpeed, targetSpeed, Time.deltaTime * lerpSpeed));
             
+            if (grounded != lastFrameGrounded)
+            {
+                if (grounded)
+                {
+                    animator.SetTrigger("Land");
+                }
+                else
+                {
+                    animator.SetTrigger("Jump");
+                }
+            }
         }
         
         

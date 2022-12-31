@@ -1452,17 +1452,53 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1724697
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0030641556
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22139168
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806289279621695446, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: Flags
       value: 2561
       objectReference: {fileID: 0}
     - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: NetworkGuid.RawGuidValue.Array.data[0]
-      value: -4377485706036182489
+      value: 668367907035734106
       objectReference: {fileID: 0}
     - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: NetworkGuid.RawGuidValue.Array.data[1]
-      value: -8353298697601042242
+      value: -7881401974939644746
       objectReference: {fileID: 0}
     - target: {fileID: 7323398169064724296, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: m_RootOrder
