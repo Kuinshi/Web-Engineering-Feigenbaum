@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace Characters.Jaeger
@@ -10,26 +11,27 @@ namespace Characters.Jaeger
         private Transform rightHandFpTarget;
         private Transform leftHandFpTarget;
         
-        private bool isSetUp;
-
         private void Start()
         {
+            StartCoroutine(SetUp());
+        }
+
+        private IEnumerator SetUp()
+        {
             JaegerIKTargets ikReferences = GetComponentInParent<JaegerIKTargets>();
+            ikReferences.firstPersonRig.enabled = true;
             
             rightHandFpTarget = ikReferences.rightHandFpTarget;
             leftHandFpTarget = ikReferences.leftHandFpTarget;
             
-            isSetUp = true;
-        }
-
-        private void Update()
-        {
-            if (!isSetUp)
-                return;
-            
             CopyTransform(rightHandFpIk, rightHandFpTarget);
             CopyTransform(leftHandFpIk, leftHandFpTarget);
+
+            yield return null;
+            
+            ikReferences.firstPersonRig.enabled = true;
         }
+        
 
         private void CopyTransform(Transform origin, Transform target)
         {

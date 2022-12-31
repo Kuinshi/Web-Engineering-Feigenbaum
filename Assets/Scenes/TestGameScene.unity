@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.47803986, g: 0.5010277, b: 0.6107735, a: 1}
+  m_IndirectSpecularColor: {r: 0.47800893, g: 0.5010426, b: 0.6107251, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1406,6 +1406,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: Flags
+      value: 2561
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: NetworkGuid.RawGuidValue.Array.data[0]
+      value: -4735029483423555499
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: NetworkGuid.RawGuidValue.Array.data[1]
+      value: 1451795068961020596
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315670213744699297, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
+      propertyPath: debugMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7323398169064724296, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: m_RootOrder
       value: 10

@@ -21,6 +21,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 
 ### Icons
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
+- https://opengameart.org/content/64-crosshairs-pack-split
 
 ### Character Mesh
 - https://www.mixamo.com/ -> Y-Bot and X-Bot, plus Gun Holding Run, Idle and Jump Animation
