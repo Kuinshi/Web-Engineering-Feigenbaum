@@ -7311,3 +7311,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1431.361380 seconds.
+  path: Assets/Models/Character/Jaeger/JumpDown.anim
+  artifactKey: Guid(a8968e72606dd214fb6ffe9d87733769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/JumpDown.anim using Guid(a8968e72606dd214fb6ffe9d87733769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722fa54830e40529faff7ec9a4e7afa1') in 0.047348 seconds 
+  Import took 0.056908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.451578 seconds.
+  path: Assets/Models/Character/Jaeger/JumpUp.anim
+  artifactKey: Guid(8477658a8a8c4ac45b8abd01648190c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/JumpUp.anim using Guid(8477658a8a8c4ac45b8abd01648190c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb27533fb64dd8c7471008378fd0ec17') in 0.017728 seconds 
+  Import took 0.033941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402163 seconds.
+  path: Assets/Models/Character/Jaeger/Run.anim
+  artifactKey: Guid(5554bb229e69f4546a4e4260dde7ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Run.anim using Guid(5554bb229e69f4546a4e4260dde7ed35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1202b8bb855ca78336fecafdcbb963') in 0.017866 seconds 
+  Import took 0.026645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.742316 seconds.
+  path: Assets/Models/Character/Jaeger/Run Backwards.fbx
+  artifactKey: Guid(7ef964a92383a0a44a51cef2b8226cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Run Backwards.fbx using Guid(7ef964a92383a0a44a51cef2b8226cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f7cd0f5a64e36a8b312d6495e5076c') in 0.293659 seconds 
+  Import took 0.301486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeLeft.fbx
+  artifactKey: Guid(8a5fa2c200692a94d8c1f9c8a904c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeLeft.fbx using Guid(8a5fa2c200692a94d8c1f9c8a904c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b98dcca69226a8107f8bacfcc6132f') in 0.087748 seconds 
+  Import took 0.095334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.747544 seconds.
+  path: Assets/Models/Character/Jaeger/Strafe.fbx
+  artifactKey: Guid(f95b7277fe148dc44a9d793a77f744eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Strafe.fbx using Guid(f95b7277fe148dc44a9d793a77f744eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee38b9796cb10c4cdc1ef20c1e6ab85') in 0.087745 seconds 
+  Import took 0.096365 seconds .
+
