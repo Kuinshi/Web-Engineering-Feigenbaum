@@ -2,13 +2,30 @@ using System;
 using System.Collections.Generic;
 using Fusion;
 using Fusion.Sockets;
+using UnityEngine;
+using UnityEngine.Serialization;
 using WebXRAccess;
+using Behaviour = Fusion.Behaviour;
 
 namespace Networking
 {
     public class NetworkInputBehaviour : Behaviour, INetworkRunnerCallbacks
     {
-    
+        public static NetworkInputBehaviour Instance;
+        
+        public Vector2 mouseDelta;
+        public Vector2 movementDirection;
+        public bool jumpPressed;
+
+
+        private void Awake()
+        {
+            if(Instance != null)
+                Destroy(this);
+
+            Instance = this;
+        }
+
         public void OnInput(NetworkRunner runner, NetworkInput input)
         {
             if (PlayerObject.Local == null)
@@ -22,9 +39,22 @@ namespace Networking
                 NetworkInputData networkInputData = WebVRRig.Instance.GetTitanInput();
                 input.Set(networkInputData);
             }
+            else
+            {
+                input.Set(GetJaegerInput());
+            }
         }
-    
-    
+
+        public NetworkInputData GetJaegerInput()
+        {
+            NetworkInputData networkInputData = new NetworkInputData();
+
+            networkInputData.mouseDelta = mouseDelta;
+            networkInputData.movementDirection = movementDirection;
+            networkInputData.jumpPressed = jumpPressed;
+            
+            return networkInputData;
+        }
     
         
     

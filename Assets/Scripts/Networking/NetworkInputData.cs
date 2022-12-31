@@ -18,5 +18,13 @@ namespace Networking
 
         #endregion
 
+        #region JaegerPlayer
+
+        public Vector2 mouseDelta;
+        public Vector2 movementDirection;
+        public bool jumpPressed;
+
+        #endregion
+
     }
 }

@@ -1,16 +1,18 @@
 using System;
 using Fusion;
+using Networking;
 using UnityEngine;
 
 namespace Characters.Jaeger
 {
     public class CameraController : NetworkBehaviour
     {
+        [SerializeField] private bool debugMode;
+
         [SerializeField] private Transform bodyRoot;
         [SerializeField] private Transform cameraHead;
         [SerializeField] private float mouseSpeed;
         [SerializeField] private float xRotLimit;
-        [SerializeField] private bool debugMode;
 
         private float currentXrot;
 
@@ -38,11 +40,35 @@ namespace Characters.Jaeger
             if (!HasInputAuthority && !debugMode)
                 return;
             
-            var mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+            NetworkInputBehaviour.Instance.mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             
-            bodyRoot.Rotate(Vector3.up, mouseDelta.x * mouseSpeed);
+            // Save Input
+        }
 
-            currentXrot += (-mouseDelta.y * mouseSpeed);
+        private void FixedUpdate()
+        {
+            if (debugMode)
+            {
+                NetworkInputData data = NetworkInputBehaviour.Instance.GetJaegerInput();
+                RotateCamera(data);
+            }
+        }
+
+        public override void FixedUpdateNetwork()
+        {
+
+            if (GetInput(out NetworkInputData data))
+            {
+                RotateCamera(data);
+            }
+            
+        }
+
+        private void RotateCamera(NetworkInputData data)
+        {
+            bodyRoot.Rotate(Vector3.up, data.mouseDelta.x * mouseSpeed);
+
+            currentXrot += (-data.mouseDelta.y * mouseSpeed);
             currentXrot = Mathf.Clamp(currentXrot, -xRotLimit, xRotLimit);
             cameraHead.localRotation = Quaternion.Euler(new Vector3(currentXrot, 0, 0));
         }
