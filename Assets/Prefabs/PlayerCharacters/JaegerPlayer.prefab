@@ -8933,8 +8933,8 @@ MonoBehaviour:
     m_Bits: 4294967295
   animator: {fileID: 3693447582419553586}
   lerpSpeed: 11
-  rotator: {fileID: 0}
-  bodyRotMax: 0
+  rotator: {fileID: 8108147927686757789}
+  bodyRotMax: 15
 --- !u!114 &6960625347632248584
 MonoBehaviour:
   m_ObjectHideFlags: 0
