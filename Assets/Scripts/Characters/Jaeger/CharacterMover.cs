@@ -29,6 +29,10 @@ namespace Characters.Jaeger
 
         private bool lastFrameGrounded;
         private float lastFrameSpeed;
+        private static readonly int Forwards = Animator.StringToHash("Forwards");
+        private static readonly int Right = Animator.StringToHash("Right");
+        private static readonly int Land = Animator.StringToHash("Land");
+        private static readonly int Jump = Animator.StringToHash("Jump");
 
         private void Start()
         {
@@ -101,23 +105,23 @@ namespace Characters.Jaeger
 
         private void HandleAnimation(Vector3 movementDirection, bool grounded)
         {
-            float targetSpeed = movementDirection.magnitude;
-            if (targetSpeed > 1)
-                targetSpeed = 1;
+            float oldForward = animator.GetFloat(Forwards);
+            float oldRight = animator.GetFloat(Right);
 
-            float oldSpeed = animator.GetFloat("Blend");
 
-            animator.SetFloat("Blend", Mathf.Lerp(oldSpeed, targetSpeed, Time.fixedDeltaTime * lerpSpeed));
+            animator.SetFloat(Forwards, Mathf.Lerp(oldForward, movementDirection.y, Time.fixedDeltaTime * lerpSpeed));
+            animator.SetFloat(Right, Mathf.Lerp(oldRight, movementDirection.x, Time.fixedDeltaTime * lerpSpeed));
+
             
             if (grounded != lastFrameGrounded)
             {
                 if (grounded)
                 {
-                    animator.SetTrigger("Land");
+                    animator.SetTrigger(Land);
                 }
                 else
                 {
-                    animator.SetTrigger("Jump");
+                    animator.SetTrigger(Jump);
                 }
             }
 

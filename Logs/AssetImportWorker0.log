@@ -465,3 +465,268 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 649.910791 seconds.
+  path: Assets/Models/Character/Jaeger/Strafe.fbx
+  artifactKey: Guid(f95b7277fe148dc44a9d793a77f744eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Strafe.fbx using Guid(f95b7277fe148dc44a9d793a77f744eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e27ba3e0b1286c7aebe8bd0de4f9651') in 0.526721 seconds 
+  Import took 0.538532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.332278 seconds.
+  path: Assets/Models/Character/Jaeger/mixamo.com.anim
+  artifactKey: Guid(090ec8a9650f5ee42be880340e0590e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/mixamo.com.anim using Guid(090ec8a9650f5ee42be880340e0590e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf766f910e7638768c4fcb188ead293') in 0.043409 seconds 
+  Import took 0.060999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.689322 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeRight.anim
+  artifactKey: Guid(090ec8a9650f5ee42be880340e0590e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeRight.anim using Guid(090ec8a9650f5ee42be880340e0590e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63155b35ca4e69dd55282c624ecd87f1') in 0.034471 seconds 
+  Import took 0.053102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.437527 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeLeft.fbx
+  artifactKey: Guid(8a5fa2c200692a94d8c1f9c8a904c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeLeft.fbx using Guid(8a5fa2c200692a94d8c1f9c8a904c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bb7a8d16986814f7580264ba2d1c91') in 0.138361 seconds 
+  Import took 0.155162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.951233 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeLeftAvatar.asset
+  artifactKey: Guid(83aa5d187c532af44a8bf208a302496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeLeftAvatar.asset using Guid(83aa5d187c532af44a8bf208a302496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ec0da38e60a348f3e3e4abd0e82ee') in 0.019047 seconds 
+  Import took 0.033666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.077081 seconds.
+  path: Assets/Models/Character/Jaeger/mixamo.com.anim
+  artifactKey: Guid(c8e95c65b13cdc643850e7b701f4bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/mixamo.com.anim using Guid(c8e95c65b13cdc643850e7b701f4bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abe2cf2babed7c18fde44e35654768') in 0.022284 seconds 
+  Import took 0.039558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.960609 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeLeft.anim
+  artifactKey: Guid(c8e95c65b13cdc643850e7b701f4bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeLeft.anim using Guid(c8e95c65b13cdc643850e7b701f4bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255bbf81acfdc2906976e9f66c0086f9') in 0.016748 seconds 
+  Import took 0.036382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.973909 seconds.
+  path: Assets/Models/Character/Jaeger/Run Backwards.fbx
+  artifactKey: Guid(7ef964a92383a0a44a51cef2b8226cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Run Backwards.fbx using Guid(7ef964a92383a0a44a51cef2b8226cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f84d71adeb0fa21fdd3be2f0352948d') in 0.131455 seconds 
+  Import took 0.143851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.671613 seconds.
+  path: Assets/Models/Character/Jaeger/mixamo.com.anim
+  artifactKey: Guid(875beaae19f0ea248b03c2164370dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/mixamo.com.anim using Guid(875beaae19f0ea248b03c2164370dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b4c943f77276eb3506f0af9f42864') in 0.026671 seconds 
+  Import took 0.048876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.270362 seconds.
+  path: Assets/Models/Character/Jaeger/StrafeBackwards.anim
+  artifactKey: Guid(875beaae19f0ea248b03c2164370dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/StrafeBackwards.anim using Guid(875beaae19f0ea248b03c2164370dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b78d8bae2788dcd39ef72fdb8ba3c3') in 0.032845 seconds 
+  Import took 0.052890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.764700 seconds.
+  path: Assets/Models/Character/Jaeger/Jaeger.controller
+  artifactKey: Guid(1c6106e17b9bf8e41a3e0c51a871ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Character/Jaeger/Jaeger.controller using Guid(1c6106e17b9bf8e41a3e0c51a871ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46abc644478bb65d2f61defb14ef57da') in 0.098015 seconds 
+  Import took 0.110166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1528ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1326ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4349.
+Total: 4.727200 ms (FindLiveObjects: 0.387800 ms CreateObjectMapping: 0.110800 ms MarkObjects: 4.177200 ms  DeleteObjects: 0.049300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 6fa181a6efa9e1563c1fa49bd87d1e00 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1577ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1368ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4352.
+Total: 4.543800 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.094400 ms MarkObjects: 4.079300 ms  DeleteObjects: 0.041400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 6fa181a6efa9e1563c1fa49bd87d1e00 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1612ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.4 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4355.
+Total: 6.715000 ms (FindLiveObjects: 0.789100 ms CreateObjectMapping: 0.298200 ms MarkObjects: 5.590200 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 6fa181a6efa9e1563c1fa49bd87d1e00 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
