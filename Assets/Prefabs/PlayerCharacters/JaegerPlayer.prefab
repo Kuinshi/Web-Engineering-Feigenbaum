@@ -206,8 +206,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256407026962648476}
-  m_LocalRotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1724697, y: 0.0030641556, z: -0.22139168}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6008370403331497844}
@@ -8692,6 +8692,7 @@ GameObject:
   - component: {fileID: 203617526021918033}
   - component: {fileID: 6960625347632248584}
   - component: {fileID: 2054008600734658752}
+  - component: {fileID: 504689116551826868}
   m_Layer: 9
   m_Name: JaegerPlayer
   m_TagString: Untagged
@@ -8960,6 +8961,7 @@ MonoBehaviour:
   - {fileID: 7315670213744699297}
   - {fileID: 203617526021918033}
   - {fileID: 2054008600734658752}
+  - {fileID: 504689116551826868}
   - {fileID: 2298444488002119069}
   SimulationBehaviours: []
 --- !u!114 &2054008600734658752
@@ -8990,6 +8992,36 @@ MonoBehaviour:
     RotTeleportRadians: 1.5
   UseLegacySharedModeInterpolation: 0
   TargetInterpolationDelay: 0.03
+--- !u!114 &504689116551826868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7992270281763261938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 506319458, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  Animator: {fileID: 3693447582419553586}
+  TotalWords: 3
+  SyncSettings: 79
+  FloatAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: -814817977
+  TimeAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: 1061325578
+  WeightAccuracy:
+    _value: 0
+    _inverse: 0
+    _hash: -814817977
+  StateHashes: 000000006bd5a32d398fdc0428a981077af3fe2ee67a3208b4204d21
+  TriggerHashes: 00000000
 --- !u!1 &8005868112576929194
 GameObject:
   m_ObjectHideFlags: 0
