@@ -1,6 +1,10 @@
+using System.Numerics;
 using Fusion;
 using Networking;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 namespace Characters.Jaeger
 {
@@ -19,6 +23,8 @@ namespace Characters.Jaeger
         [SerializeField] private float lerpSpeed;
 
         [SerializeField] private Transform rotator;
+        [SerializeField] private float bodyRotMax;
+        
         
 
         private bool lastFrameGrounded;
@@ -101,7 +107,7 @@ namespace Characters.Jaeger
 
             float oldSpeed = animator.GetFloat("Blend");
 
-            animator.SetFloat("Blend", Mathf.Lerp(oldSpeed, targetSpeed, Time.deltaTime * lerpSpeed));
+            animator.SetFloat("Blend", Mathf.Lerp(oldSpeed, targetSpeed, Time.fixedDeltaTime * lerpSpeed));
             
             if (grounded != lastFrameGrounded)
             {
@@ -114,6 +120,26 @@ namespace Characters.Jaeger
                     animator.SetTrigger("Jump");
                 }
             }
+
+            Vector3 targetRot = Vector3.zero;
+
+            if (!grounded)
+            {
+                if (movementDirection.y >= 1)
+                    targetRot.x = bodyRotMax;
+                
+                if(movementDirection.y <= -1)
+                    targetRot.x = -bodyRotMax;
+
+                if (movementDirection.x >= 1)
+                    targetRot.z = -bodyRotMax;
+                
+                if(movementDirection.x <= -1)
+                    targetRot.z = bodyRotMax;
+            }
+
+            rotator.localRotation = Quaternion.Slerp(rotator.localRotation, Quaternion.Euler(targetRot),
+                Time.fixedDeltaTime * lerpSpeed);
         }
         
         

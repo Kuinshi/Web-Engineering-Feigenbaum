@@ -3809,6 +3809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8108147927686757789}
+  - component: {fileID: 2298444488002119069}
   m_Layer: 9
   m_Name: Rotator
   m_TagString: Untagged
@@ -3830,9 +3831,38 @@ Transform:
   - {fileID: 1806289279621695446}
   - {fileID: 235578072780640053}
   - {fileID: 7514220928398268407}
+  - {fileID: 6575389783489080325}
   m_Father: {fileID: 7323398169064724296}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2298444488002119069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852147441628958065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  InterpolationSpace: 0
+  InterpolationTarget: {fileID: 6575389783489080325}
+  InterpolateErrorCorrection: 1
+  InterpolatedErrorCorrectionSettings:
+    MinRate: 3.3
+    MaxRate: 10
+    PosBlendStart: 0.25
+    PosBlendEnd: 1
+    PosMinCorrection: 0.025
+    PosTeleportDistance: 2
+    RotBlendStart: 0.1
+    RotBlendEnd: 0.5
+    RotTeleportRadians: 1.5
+  UseLegacySharedModeInterpolation: 0
+  TargetInterpolationDelay: 0.03
 --- !u!1 &3853634146996399178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6232,6 +6262,36 @@ Transform:
   - {fileID: 7120653535549153546}
   m_Father: {fileID: 815041857864544559}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5868607110092881688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6575389783489080325}
+  m_Layer: 9
+  m_Name: InterpolationTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6575389783489080325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5868607110092881688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8108147927686757789}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5871833698926964014
 GameObject:
@@ -8873,6 +8933,8 @@ MonoBehaviour:
     m_Bits: 4294967295
   animator: {fileID: 3693447582419553586}
   lerpSpeed: 11
+  rotator: {fileID: 0}
+  bodyRotMax: 0
 --- !u!114 &6960625347632248584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8898,6 +8960,7 @@ MonoBehaviour:
   - {fileID: 7315670213744699297}
   - {fileID: 203617526021918033}
   - {fileID: 2054008600734658752}
+  - {fileID: 2298444488002119069}
   SimulationBehaviours: []
 --- !u!114 &2054008600734658752
 MonoBehaviour:

@@ -7359,3 +7359,4 @@ Received Import Request.
 Start importing Assets/Models/Character/Jaeger/Strafe.fbx using Guid(f95b7277fe148dc44a9d793a77f744eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee38b9796cb10c4cdc1ef20c1e6ab85') in 0.087745 seconds 
   Import took 0.096365 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
