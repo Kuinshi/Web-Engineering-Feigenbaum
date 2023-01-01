@@ -1,4 +1,3 @@
-using System;
 using Fusion;
 using Networking;
 using UnityEngine;
@@ -9,8 +8,11 @@ namespace Characters.Jaeger
     {
         [SerializeField] private bool debugMode;
 
-        [SerializeField] private Transform bodyRoot;
+        [SerializeField] private Transform rotator;
+        [SerializeField] private Transform cameraRotator;
+        
         [SerializeField] private Transform cameraHead;
+        
         [SerializeField] private float mouseSpeed;
         [SerializeField] private float xRotLimit;
 
@@ -40,9 +42,7 @@ namespace Characters.Jaeger
             if (!HasInputAuthority && !debugMode)
                 return;
             
-            NetworkInputBehaviour.Instance.mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-            
-            // Save Input
+            RotateCamera(new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")));
         }
 
         private void FixedUpdate()
@@ -50,7 +50,7 @@ namespace Characters.Jaeger
             if (debugMode)
             {
                 NetworkInputData data = NetworkInputBehaviour.Instance.GetJaegerInput();
-                RotateCamera(data);
+                RotateBody(data);
             }
         }
 
@@ -59,18 +59,26 @@ namespace Characters.Jaeger
 
             if (GetInput(out NetworkInputData data))
             {
-                RotateCamera(data);
+                RotateBody(data);
             }
             
         }
 
-        private void RotateCamera(NetworkInputData data)
+        private void RotateCamera(Vector2 mouseDelta)
         {
-            bodyRoot.Rotate(Vector3.up, data.mouseDelta.x * mouseSpeed);
-
-            currentXrot += (-data.mouseDelta.y * mouseSpeed);
+            cameraRotator.Rotate(Vector3.up, mouseDelta.x * mouseSpeed);
+            
+            currentXrot += (-mouseDelta.y * mouseSpeed);
             currentXrot = Mathf.Clamp(currentXrot, -xRotLimit, xRotLimit);
             cameraHead.localRotation = Quaternion.Euler(new Vector3(currentXrot, 0, 0));
+            NetworkInputBehaviour.Instance.yBodyRotation = cameraRotator.localRotation.eulerAngles.y;
+        }
+
+        private void RotateBody(NetworkInputData data)
+        {
+            Vector3 oldLocRot = rotator.localRotation.eulerAngles;
+            oldLocRot.y = data.yBodyRotation;
+            rotator.localRotation = Quaternion.Euler(oldLocRot);
         }
 
         private void OnDestroy()

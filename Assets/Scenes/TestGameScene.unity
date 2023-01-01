@@ -793,7 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b5ad422c5f34214f8d0e2a2c441dd3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseDelta: {x: 0, y: 0}
+  yBodyRotation: 0
   movementDirection: {x: 0, y: 0}
   jumpPressed: 0
 --- !u!4 &1716799662
@@ -1458,11 +1458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: NetworkGuid.RawGuidValue.Array.data[0]
-      value: -6462730020929509719
+      value: 5782728497403613558
       objectReference: {fileID: 0}
     - target: {fileID: 6960625347632248584, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: NetworkGuid.RawGuidValue.Array.data[1]
-      value: 3089542549299985282
+      value: 4769316283710085017
       objectReference: {fileID: 0}
     - target: {fileID: 7323398169064724296, guid: 2d9f5ef0a91818a409fb5e7d1406dfe8, type: 3}
       propertyPath: m_RootOrder

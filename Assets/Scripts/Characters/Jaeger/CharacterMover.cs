@@ -18,7 +18,7 @@ namespace Characters.Jaeger
         [SerializeField] private Rigidbody rb;
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
-        
+
         [SerializeField] private Collider groundCheckBox;
         [SerializeField] private LayerMask groundLayer;
 
@@ -89,7 +89,7 @@ namespace Characters.Jaeger
             Vector3 targetVel = new Vector3(data.movementDirection.x, 0, data.movementDirection.y);
             targetVel *= speed;
 
-            targetVel = transform.TransformDirection(targetVel);
+            targetVel = rotator.TransformDirection(targetVel);
             Vector3 velocityChange = targetVel - currentVel;
             velocityChange.y = 0;
             rb.AddForce(velocityChange, ForceMode.VelocityChange);
@@ -99,7 +99,7 @@ namespace Characters.Jaeger
             Flying(data.jumpPressed);
             
             HandleAnimation(data.movementDirection, grounded);
-        
+
             lastFrameGrounded = grounded;
         }
 
@@ -110,7 +110,7 @@ namespace Characters.Jaeger
             
             if(fuel > 0)
             {
-                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                ApplyFlyForce();
                 fuel -= Time.fixedDeltaTime;
                 if (fuel < 0)
                     fuel = 0;
@@ -118,8 +118,16 @@ namespace Characters.Jaeger
             } 
             
             if(fuel == -1)   // Debug Version for infinite Fuel
-                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                ApplyFlyForce();
+        }
 
+        private void ApplyFlyForce()
+        {
+            float fallModifier = 1;
+            if (rb.velocity.y < -1)
+                fallModifier = rb.velocity.y * -1;
+            //rb.velocity = velocity;
+            rb.AddForce(Vector3.up * jumpForce * fallModifier, ForceMode.Impulse);
         }
 
         private void HandleAnimation(Vector3 movementDirection, bool grounded)

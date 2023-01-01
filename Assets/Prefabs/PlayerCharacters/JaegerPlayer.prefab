@@ -975,7 +975,7 @@ Transform:
   m_LocalScale: {x: 0.5625, y: 0.025, z: 0.5625}
   m_Children: []
   m_Father: {fileID: 7323398169064724296}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1842045890990050583
 MeshFilter:
@@ -3810,6 +3810,37 @@ Transform:
   - {fileID: 1054465154636583241}
   m_Father: {fileID: 799042606972779411}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3599671230366688494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1955922749931270}
+  m_Layer: 9
+  m_Name: CameraRotator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1955922749931270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3599671230366688494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7073842919693394574}
+  m_Father: {fileID: 7323398169064724296}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3618839530617146741
 GameObject:
@@ -7838,8 +7869,8 @@ Transform:
   m_Children:
   - {fileID: 7073842920342018707}
   - {fileID: 450565202907712687}
-  m_Father: {fileID: 7323398169064724296}
-  m_RootOrder: 1
+  m_Father: {fileID: 1955922749931270}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &7073842919693394571
 Camera:
@@ -8526,7 +8557,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7323398169064724296}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7251756478524084925
 GameObject:
@@ -9050,9 +9081,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8108147927686757789}
-  - {fileID: 7073842919693394574}
   - {fileID: 7481859767201726744}
   - {fileID: 8866575864397758923}
+  - {fileID: 1955922749931270}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -9245,7 +9276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   debugMode: 1
-  bodyRoot: {fileID: 7323398169064724296}
+  rotator: {fileID: 8108147927686757789}
+  cameraRotator: {fileID: 1955922749931270}
   cameraHead: {fileID: 7073842919693394574}
   mouseSpeed: 2
   xRotLimit: 90

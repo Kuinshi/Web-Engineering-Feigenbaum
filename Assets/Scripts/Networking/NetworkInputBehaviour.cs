@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Fusion;
 using Fusion.Sockets;
 using UnityEngine;
-using UnityEngine.Serialization;
 using WebXRAccess;
 using Behaviour = Fusion.Behaviour;
 
@@ -13,7 +12,7 @@ namespace Networking
     {
         public static NetworkInputBehaviour Instance;
         
-        public Vector2 mouseDelta;
+        public float yBodyRotation;
         public Vector2 movementDirection;
         public bool jumpPressed;
 
@@ -49,7 +48,7 @@ namespace Networking
         {
             NetworkInputData networkInputData = new NetworkInputData();
 
-            networkInputData.mouseDelta = mouseDelta;
+            networkInputData.yBodyRotation = yBodyRotation;
             networkInputData.movementDirection = movementDirection;
             networkInputData.jumpPressed = jumpPressed;
             
