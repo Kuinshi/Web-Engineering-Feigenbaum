@@ -33,6 +33,7 @@ namespace Characters.Jaeger
         private static readonly int Right = Animator.StringToHash("Right");
         private static readonly int Land = Animator.StringToHash("Land");
         private static readonly int Jump = Animator.StringToHash("Jump");
+        private static readonly int FlyingChached = Animator.StringToHash("Flying");
 
         private void Start()
         {
@@ -92,15 +93,19 @@ namespace Characters.Jaeger
 
             bool grounded = GroundCheck();
 
-
-            if (data.jumpPressed) // ToDo: Add Fuel Resource and check!
-            {
-                rb.AddForce(Vector3.up*jumpForce, ForceMode.VelocityChange);
-            }
+            Flying(data.jumpPressed);
             
             HandleAnimation(data.movementDirection, grounded);
         
             lastFrameGrounded = grounded;
+        }
+
+        private void Flying(bool jumpPressed)
+        {
+            if (!jumpPressed)
+                return;
+            
+            rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
         }
 
         private void HandleAnimation(Vector3 movementDirection, bool grounded)
@@ -115,14 +120,7 @@ namespace Characters.Jaeger
             
             if (grounded != lastFrameGrounded)
             {
-                if (grounded)
-                {
-                    animator.SetTrigger(Land);
-                }
-                else
-                {
-                    animator.SetTrigger(Jump);
-                }
+                animator.SetBool(FlyingChached, !grounded);
             }
 
             Vector3 targetRot = Vector3.zero;

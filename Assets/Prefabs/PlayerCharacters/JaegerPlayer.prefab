@@ -8926,7 +8926,7 @@ MonoBehaviour:
   debugMode: 1
   rb: {fileID: 4532241156306236771}
   speed: 3
-  jumpForce: 4
+  jumpForce: 25
   groundCheckBox: {fileID: 2951630233783040691}
   groundLayer:
     serializedVersion: 2
