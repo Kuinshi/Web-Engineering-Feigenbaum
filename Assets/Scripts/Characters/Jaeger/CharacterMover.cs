@@ -1,4 +1,4 @@
-using System.Numerics;
+using System;
 using Fusion;
 using Networking;
 using UnityEngine;
@@ -10,6 +10,9 @@ namespace Characters.Jaeger
 {
     public class CharacterMover : NetworkBehaviour
     {
+        public float fuel = 100;
+        public float maxFuel = 100;
+        
         [SerializeField] private bool debugMode;
 
         [SerializeField] private Rigidbody rb;
@@ -24,8 +27,8 @@ namespace Characters.Jaeger
 
         [SerializeField] private Transform rotator;
         [SerializeField] private float bodyRotMax;
-        
-        
+
+        public event Action<float> OnFuelChanged; 
 
         private bool lastFrameGrounded;
         private float lastFrameSpeed;
@@ -105,7 +108,18 @@ namespace Characters.Jaeger
             if (!jumpPressed)
                 return;
             
-            rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
+            if(fuel > 0)
+            {
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                fuel -= Time.fixedDeltaTime;
+                if (fuel < 0)
+                    fuel = 0;
+                OnFuelChanged?.Invoke(fuel);
+            } 
+            
+            if(fuel == -1)   // Debug Version for infinite Fuel
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
         }
 
         private void HandleAnimation(Vector3 movementDirection, bool grounded)
@@ -150,6 +164,15 @@ namespace Characters.Jaeger
             var colliders = Physics.OverlapBox(groundCheckBox.bounds.center, groundCheckBox.transform.localScale, Quaternion.identity, groundLayer);
             return colliders.Length > 1;
             
+        }
+
+        // ToDo: Add Fuel Packs and RPC this I think.
+        public void FillFuel()
+        {
+            if(fuel != -1)
+                fuel = maxFuel;
+            
+            OnFuelChanged?.Invoke(fuel);
         }
     }
 }
