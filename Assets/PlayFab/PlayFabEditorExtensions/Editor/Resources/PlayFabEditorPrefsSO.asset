@@ -16,7 +16,7 @@ MonoBehaviour:
   DevAccountToken: u73ucyt78g5ewck8qtd58ay5sdyiwt8wdzok4r3ee8mmzfkbc5jgynx8uzcu16gz3pzg5oub61dk39fjmkc57oaubks459i45ej3pt6rastjrq5ztkqp7esoumpgr3wjf9jwcfznnjo9b5cggwukkxihox9jyfpywpmuogqszxgzraffu1y9onrj44q1si76irrxc98o
   AadAuthorization: 
   SelectedStudio: My Game Studio
-  SdkPath: Assets/PlayFabSDK
+  SdkPath: Assets/PlayFab/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
