@@ -47,6 +47,8 @@ namespace Addressables
 
             // ToDo: Mark User as loaded
             // On host, check if everyone is loaded, then start the game with a 3 second Timer via an RPC?
+            
+            Debug.Log("Fog mode is set to: " + RenderSettings.fogMode + " " + RenderSettings.fog + " " + RenderSettings.fogColor + " " + RenderSettings.fogDensity + " " + RenderSettings.fogEndDistance + " " + RenderSettings.fogEndDistance);
         }
 
         private void SpawnCharacters()

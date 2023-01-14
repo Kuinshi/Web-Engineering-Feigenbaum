@@ -1,3 +1,4 @@
+using Manager;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
@@ -10,8 +11,17 @@ namespace Addressables
         
         private void Start()
         {
+            LoadingIndicatorManager.Instance.StartLoading();
             scene.LoadSceneAsync();
-            Destroy(gameObject);
+        }
+
+        private void Update()
+        {
+            if (scene.IsDone)
+            {
+                LoadingIndicatorManager.Instance.StopLoading();
+                Destroy(gameObject);
+            }
         }
     }
 }
