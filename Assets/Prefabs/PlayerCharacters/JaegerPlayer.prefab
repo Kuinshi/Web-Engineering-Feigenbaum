@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7579758701591197083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: _13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4573938233697415572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 270369209438426478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jetpack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6973213043248189834}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_02_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,7 +757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5809409745426834774}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: offset_01_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2231,7 +2231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6340561659963192001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RootNode (model correction matrix)_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2574,7 +2574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3367939423334392519}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RootNode_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3418,7 +3418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6053364844890213911}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: _5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3634,7 +3634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1921061971056116504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: _rootJoint_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4253,7 +4253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2627803669928624980}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GLTF_created_0_rootJoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4284,7 +4284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7689473321606172803}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sketchfab_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4584,7 +4584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2515477228271193112}
   - component: {fileID: 7857216953833138975}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Object_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5390,7 +5390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 221606085836259473}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cosmos_JetPack_Gadget.ao_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5916,7 +5916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2956631760527847400}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GLTF_created_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6328,7 +6328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1052381084800886419}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: _12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6729,7 +6729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3906994176513997227}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_end_03_10_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7039,7 +7039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1075172574246641635}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: root_00_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7630,7 +7630,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7260707287114312181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GLTF_SceneRootNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7753,7 +7753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7282383991786545876}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jetpack.fbx_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8786,7 +8786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6351286566378926493}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_end_03_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8879,7 +8879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4493507997590795886}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RootNode (gltf orientation matrix)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9275,7 +9275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  debugMode: 1
+  debugMode: 0
   rotator: {fileID: 8108147927686757789}
   cameraRotator: {fileID: 1955922749931270}
   cameraHead: {fileID: 7073842919693394574}
@@ -9296,7 +9296,7 @@ MonoBehaviour:
   _interpolationDataSource: 0
   fuel: 100
   maxFuel: 100
-  debugMode: 1
+  debugMode: 0
   rb: {fileID: 4532241156306236771}
   speed: 3
   jumpForce: 25
@@ -10487,6 +10487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Jetpack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1035195815500680631, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1625185561854234759, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10531,6 +10535,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5068470568024527030, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646412626300219980, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
 --- !u!4 &8405554190214454548 stripped
@@ -10548,6 +10560,10 @@ PrefabInstance:
     - target: {fileID: 1035195815500680631, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
       propertyPath: m_Name
       value: VFX_Jetpack
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035195815500680631, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1625185561854234759, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
       propertyPath: m_RootOrder
@@ -10592,6 +10608,14 @@ PrefabInstance:
     - target: {fileID: 1625185561854234759, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068470568024527030, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646412626300219980, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ee53aa88e7b5fc478f0bcce5e2fc87d, type: 3}

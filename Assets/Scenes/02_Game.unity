@@ -203,7 +203,7 @@ MonoBehaviour:
   titanPrefab:
     RawGuidValue: d6e2be7a1e456714290e5d14e0c60547
   jaegerPrefab:
-    RawGuidValue: 6aa269f7c90a8d0408aaed3d7bdd1803
+    RawGuidValue: 2d9f5ef0a91818a409fb5e7d1406dfe8
 --- !u!4 &1589971200
 Transform:
   m_ObjectHideFlags: 0

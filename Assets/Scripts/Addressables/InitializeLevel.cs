@@ -4,6 +4,7 @@ using Manager;
 using Networking;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using Util;
 using WebXRAccess;
 
 namespace Addressables
@@ -30,6 +31,8 @@ namespace Addressables
             while (!operation.IsDone)
                 yield return null;
 
+            // ToDO: Wait for every player to have loaded the level
+            
             if (NetworkRunnerManager.Instance.Runner.IsServer)
                 SpawnCharacters();
 
@@ -54,11 +57,18 @@ namespace Addressables
                 po.playerCharacter = playerObject;
             }
 
+
+            int spawnCount = 0;
+            Transform spawnPointParent = FindObjectOfType<SpawnPointParent>().transform;
+            
             foreach (PlayerObject po in PlayerRegistry.Jaeger)
             {
                 // ToDo: Determine proper Spawn Points for players here.
-                NetworkObject playerObject = NetworkRunnerManager.Instance.Runner.Spawn(jaegerPrefab, Vector3.zero, Quaternion.identity, po.Ref);
+                NetworkObject playerObject = NetworkRunnerManager.Instance.Runner.Spawn(jaegerPrefab, spawnPointParent.GetChild(spawnCount).position,
+                    spawnPointParent.GetChild(spawnCount).rotation, po.Ref);
                 po.playerCharacter = playerObject;
+
+                spawnCount += 1;
             }
         }
     }
