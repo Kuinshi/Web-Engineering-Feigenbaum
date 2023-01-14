@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace Addressables
+namespace Addressables  
 {
     public class LoadMenuScene : MonoBehaviour
     {
