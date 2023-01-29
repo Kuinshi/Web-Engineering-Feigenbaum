@@ -18,7 +18,7 @@ namespace Characters.Jaeger
 
         private IEnumerator SetUp()
         {
-            JaegerIKTargets ikReferences = GetComponentInParent<JaegerIKTargets>();
+            JaegerIKTargets ikReferences = transform.root.GetComponentInChildren<JaegerIKTargets>();
             ikReferences.firstPersonRig.enabled = true;
             
             rightHandFpTarget = ikReferences.rightHandFpTarget;
