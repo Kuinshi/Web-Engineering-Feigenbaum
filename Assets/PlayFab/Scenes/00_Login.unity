@@ -455,6 +455,14 @@ PrefabInstance:
       propertyPath: popupPanel
       value: 
       objectReference: {fileID: 58241521}
+    - target: {fileID: 8856890237963570436, guid: 5ba696f2f2dd19b4dafa66865b37898f, type: 3}
+      propertyPath: popupHeaderTxt
+      value: 
+      objectReference: {fileID: 39993086}
+    - target: {fileID: 8856890237963570436, guid: 5ba696f2f2dd19b4dafa66865b37898f, type: 3}
+      propertyPath: popupContentTxt
+      value: 
+      objectReference: {fileID: 2019420340}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ba696f2f2dd19b4dafa66865b37898f, type: 3}
 --- !u!1 &332600499
