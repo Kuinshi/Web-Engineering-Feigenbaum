@@ -9,14 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/00_InitScene.unity
     guid: 78b12c1f92131324ea5e491fedd26ab1
   - enabled: 1
+    path: Assets/Scenes/01.5_Shop.unity
+    guid: 6dd73041774915448a3c80edd746ee61
+  - enabled: 1
     path: Assets/Scenes/02_Game.unity
     guid: 26ccba471ba27c5478c15c9f4ddf2846
-  - enabled: 1
-    path: Assets/PlayFab/Scenes/00_Login.unity
-    guid: b41da50fe2a1dd6419b6a3e41158bb1d
-  - enabled: 1
-    path: Assets/PlayFab/Scenes/001_Shop.unity
-    guid: 6dd73041774915448a3c80edd746ee61
   m_configObjects:
     WebXR.Settings: {fileID: 11400000, guid: 93720014cad16c943ad3430c4d28ef48, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 035bbb1121583e043a910bf2dc8b0782, type: 2}
