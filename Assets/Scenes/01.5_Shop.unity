@@ -1203,6 +1203,7 @@ MonoBehaviour:
   coinUi: {fileID: 759186831}
   shopItemsS0:
   - {fileID: 11400000, guid: d984f7c1ad40f9b4895838fec9aa6859, type: 2}
+  - {fileID: 11400000, guid: cae893885ea80b349ac875ac614a1ea5, type: 2}
   shopPanelsGO:
   - {fileID: 2082239385}
   - {fileID: 1158847773}

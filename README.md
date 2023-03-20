@@ -22,6 +22,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 - https://opengameart.org/content/64-crosshairs-pack-split
 - https://www.vecteezy.com/photo/4918564-dark-blue-nebula-sparkle-purple-star-universe-in-outer-space-horizontal-galaxy-on-space
+- https://tools.wwwtyro.net/space-3d/index.html#animationSpeed=0&fov=78.87899436668226&nebulae=true&pointStars=true&resolution=1024&seed=b8hmokrez9s&stars=true&sun=false
 
 ### Character Mesh
 - https://www.mixamo.com/ -> Y-Bot and X-Bot, plus Gun Holding Run, Idle and Jump Animation
@@ -44,4 +45,4 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://doc.photonengine.com/en-us/fusion/current/getting-started/fusion-intro Photon Fusion for in-game Networking
 
 # Tutorials used
-- https://www.youtube.com/watch?v=jLUGRGdji2o
+- https://www.youtube.com/watch?v=P1TnQ--IUFw
