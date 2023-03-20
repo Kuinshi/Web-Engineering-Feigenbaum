@@ -2228,7 +2228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Costmetics Shop
+  m_text: Cosmetics Shop
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d67fad2bf28b7748a826f702b272e70, type: 2}
   m_sharedMaterial: {fileID: -2551059644263635171, guid: 1d67fad2bf28b7748a826f702b272e70, type: 2}
@@ -7972,6 +7972,7 @@ MonoBehaviour:
   startGameButton: {fileID: 376606712}
   startGameCanvasGroup: {fileID: 617306040}
   readyButton: {fileID: 711632084}
+  oldReadyState: 0
 --- !u!1 &2128866657
 GameObject:
   m_ObjectHideFlags: 0

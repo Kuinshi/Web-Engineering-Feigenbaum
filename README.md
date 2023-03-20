@@ -12,16 +12,16 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
 - https://assetstore.unity.com/packages/vfx/shaders/ultra-skybox-fog-115414
 
-
 ## External Code Assets used
 - https://github.com/De-Panther/unity-webxr-export for WebXR in Unity
 - https://github.com/danilofaugusto/WebXR-Slap-a-Cube-Tutorial used this as base project to get WebXR working
   
 ## External Art Assets used
 
-### Icons
+### Textures
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 - https://opengameart.org/content/64-crosshairs-pack-split
+- https://www.vecteezy.com/photo/4918564-dark-blue-nebula-sparkle-purple-star-universe-in-outer-space-horizontal-galaxy-on-space
 
 ### Character Mesh
 - https://www.mixamo.com/ -> Y-Bot and X-Bot, plus Gun Holding Run, Idle and Jump Animation
@@ -42,3 +42,6 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://playfab.com/ for storing persistent User Data
 - https://aws.amazon.com/de/ AWS S3 Bucket for storing built Addressable Packages
 - https://doc.photonengine.com/en-us/fusion/current/getting-started/fusion-intro Photon Fusion for in-game Networking
+
+# Tutorials used
+- https://www.youtube.com/watch?v=jLUGRGdji2o
