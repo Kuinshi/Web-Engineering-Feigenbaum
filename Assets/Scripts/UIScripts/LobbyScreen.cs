@@ -25,7 +25,7 @@ namespace UIScripts
 
         readonly Dictionary<PlayerRef, PlayerListItem> playerItems = new Dictionary<PlayerRef, PlayerListItem>();
         private bool isReady;
-
+        [HideInInspector] public bool oldReadyState;
         
         public void AddSubscriptions()
         {
@@ -45,10 +45,14 @@ namespace UIScripts
             if (NetworkRunnerManager.Instance.Runner.IsServer)
             {
                 startGameButton.gameObject.SetActive(true);
+                readyButton.gameObject.SetActive(false);
+
             }
             else
             {
                 readyButton.gameObject.SetActive(true);
+                startGameButton.gameObject.SetActive(false);
+
             }
         }
 
@@ -133,6 +137,19 @@ namespace UIScripts
             {
                if(po.Ref == NetworkRunnerManager.Instance.Runner.LocalPlayer)
                    po.Rpc_SetReadyState(isReady);
+            }
+        }
+
+        public void SetReadyViaShop(bool targetState)
+        {
+            oldReadyState = isReady;
+            isReady = targetState;
+            readyButton.GetComponentInChildren<TextMeshProUGUI>().text = isReady ? "Not ready" : "Ready";
+
+            foreach (var po in PlayerRegistry.Everyone)
+            {
+                if(po.Ref == NetworkRunnerManager.Instance.Runner.LocalPlayer)
+                    po.Rpc_SetReadyState(isReady);
             }
         }
 

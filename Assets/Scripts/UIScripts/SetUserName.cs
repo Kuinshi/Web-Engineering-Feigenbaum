@@ -13,6 +13,12 @@ namespace UIScripts
             _inputField = GetComponent<TMP_InputField>();
         }
 
+        private void Start()
+        {
+            _inputField.text = PlayerPrefs.GetString("USERNAME");
+            UpdateName();
+        }
+
         public void UpdateName()
         {
             LocalPlayerData.userName = _inputField.text;
