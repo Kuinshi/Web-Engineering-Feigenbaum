@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Fusion;
 using Manager;
 using Networking;
@@ -119,6 +120,13 @@ namespace UIScripts
             if(PlayerObject.Local != null && PlayerObject.Local.IsTitan)
                 WebXRManager.Instance.ToggleVR();
 #endif
+            // Change Titan HP
+            foreach (var po in PlayerRegistry.Titan)
+            {
+                po.Health = PlayerRegistry.Jaeger.Count() * 150;
+                Debug.Log("Titan health should now be " + po.Health);
+            }
+            
             NetworkRunnerManager.Instance.Runner.SetActiveScene("02_Game");
             
             var playerListItems = FindObjectsOfType<PlayerListItem>();

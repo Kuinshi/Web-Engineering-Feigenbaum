@@ -32,7 +32,7 @@ namespace Networking
 		[Networked] public bool IsLoaded { get; set; }
 		[Networked(OnChanged = nameof(GameOverCheck))] public bool IsDead { get; set; }
 
-		[Networked] public int Health { get; set; } = 1000;
+		[Networked] public int Health { get; set; } = 5;
 
 
 		public NetworkObject playerCharacter;
@@ -124,6 +124,7 @@ namespace Networking
 		{
 			Debug.Log($"Titan took {damageValue} Damage.");
 			Health -= damageValue;
+			Debug.Log("Titan has now: " + Health);
 
 			if (Health <= 0)
 			{

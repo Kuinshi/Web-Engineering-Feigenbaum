@@ -16,8 +16,13 @@ namespace Characters.Jaeger
         [SerializeField] private int baseDamage;
         [SerializeField] private LayerMask layerMask;
         [SerializeField] private TextMeshProUGUI ammoText;
+        [SerializeField] private Camera fpsCamera;
+        
 
-        [SerializeField] private List<GunEffect> gunEffects = new List<GunEffect>();
+        [SerializeField] private GunEffect firstPersonGunEffect;
+        [SerializeField] private GunEffect thirdPersonGunEffect;
+
+        
         
         
 
@@ -25,20 +30,25 @@ namespace Characters.Jaeger
 
         private void Update()
         {
+            if (!HasInputAuthority)
+                return;
+            
             if (cooldown)
                 return;
             
-            if (currentAmmo <= 0)
-            {
-                Rpc_ShotEffects(2);
-                StartCoroutine(ShotCooldown());
-                return;
-            }
+            StartCoroutine(ShotCooldown());
             
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) || Input.GetMouseButtonDown(0))
             {
-                Shoot();
-                StartCoroutine(ShotCooldown());
+                if (currentAmmo <= 0)
+                {
+                    Debug.Log("Play no Ammo sound.");
+                    Rpc_ShotEffects(2);
+                }
+                else
+                {
+                    Shoot();
+                }
             }
         }
 
@@ -49,7 +59,7 @@ namespace Characters.Jaeger
             
             Rpc_ShotEffects(0);
             
-            Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+            Ray ray = fpsCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
             if(Physics.Raycast(ray, out RaycastHit hit, 10000, layerMask))
             {
                 Debug.Log("Shot hit: " + hit.collider.gameObject.name);
@@ -68,28 +78,24 @@ namespace Characters.Jaeger
         [Rpc(RpcSources.InputAuthority, RpcTargets.All)]
         void Rpc_ShotEffects(int effectType)
         {
+            GunEffect gunEffect = HasInputAuthority ? firstPersonGunEffect : thirdPersonGunEffect;
+            
             if (effectType == 0)
             {
-                foreach (var gunEffect in gunEffects)
-                {
-                    gunEffect.PlayEffect();
-                }
+                if(gunEffect.gameObject.activeInHierarchy)
+                        gunEffect.PlayEffect();
             }
             
-            if (effectType == 1)
+            if (effectType == 1 && HasInputAuthority)
             {
-                foreach (var gunEffect in gunEffects)
-                {
-                    gunEffect.PlayReloadSound();
-                }
+                if(gunEffect.gameObject.activeInHierarchy)
+                        gunEffect.PlayReloadSound();
             }
             
-            if (effectType == 2)
+            if (effectType == 2 && HasInputAuthority)
             {
-                foreach (var gunEffect in gunEffects)
-                {
-                    gunEffect.PlayNoAmmoSound();
-                }
+                if(gunEffect.gameObject.activeInHierarchy)
+                        gunEffect.PlayNoAmmoSound();
             }
         }
 

@@ -18,6 +18,9 @@ namespace PlayFabScripts
         // Start is called before the first frame update
         private IEnumerator Start()
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            
 #if UNITY_WEBGL && !UNITY_EDITOR
             if (ToggleVR.vrOn)
             {

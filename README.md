@@ -11,6 +11,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://assetstore.unity.com/packages/tools/utilities/webgl-optimizer-230446
 - https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
 - https://assetstore.unity.com/packages/vfx/shaders/ultra-skybox-fog-115414
+- https://assetstore.unity.com/packages/2d/textures-materials/toon-muzzleflash-pack-56572
 
 ## External Code Assets used
 - https://github.com/De-Panther/unity-webxr-export for WebXR in Unity
