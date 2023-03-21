@@ -11,7 +11,7 @@ namespace Characters.Jaeger
     public class CharacterMover : NetworkBehaviour
     {
         [Networked] private float Fuel { get; set; }
-        private float maxFuel = 40;
+        public float maxFuel = 40;
         
         [SerializeField] private Rigidbody rb;
         [SerializeField] private float speed;
@@ -37,8 +37,6 @@ namespace Characters.Jaeger
         private float lastFrameSpeed;
         private static readonly int Forwards = Animator.StringToHash("Forwards");
         private static readonly int Right = Animator.StringToHash("Right");
-        private static readonly int Land = Animator.StringToHash("Land");
-        private static readonly int Jump = Animator.StringToHash("Jump");
         private static readonly int FlyingChached = Animator.StringToHash("Flying");
         
 
@@ -137,7 +135,6 @@ namespace Characters.Jaeger
             
             if(Fuel > 0)
             {
-                Debug.Log("Trying to Fly: Remaining Fuel " + Fuel);
                 ApplyFlyForce();
                 Fuel -= Time.fixedDeltaTime;
                 if (Fuel < 0)
@@ -169,6 +166,7 @@ namespace Characters.Jaeger
             if (grounded != lastFrameGrounded)
             {
                 animator.SetBool(FlyingChached, !grounded);
+                Debug.Log("Grounded State Changed - set flying bool in animator to: " + grounded);
             }
 
             Vector3 targetRot = Vector3.zero;
@@ -196,7 +194,7 @@ namespace Characters.Jaeger
         private bool GroundCheck()
         {
             var colliders = Physics.OverlapBox(groundCheckBox.bounds.center, groundCheckBox.transform.localScale, Quaternion.identity, groundLayer);
-            return colliders.Length > 1;
+            return colliders.Length > 2;
             
         }
         
