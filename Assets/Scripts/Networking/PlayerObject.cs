@@ -32,6 +32,9 @@ namespace Networking
 		[Networked] public bool IsLoaded { get; set; }
 		[Networked(OnChanged = nameof(GameOverCheck))] public bool IsDead { get; set; }
 
+		[Networked] public int Health { get; set; } = 1000;
+
+
 		public NetworkObject playerCharacter;
 
 		
@@ -109,6 +112,22 @@ namespace Networking
 		void Rpc_Died()
 		{
 			IsDead = true;
+		}
+
+		public void TakeDamage(int damageValue)
+		{
+			Rpc_Damage(damageValue);
+		}
+		
+		[Rpc(RpcSources.All, RpcTargets.InputAuthority)]
+		void Rpc_Damage(int damageValue)
+		{
+			Health -= damageValue;
+
+			if (Health <= 0)
+			{
+				PlayerDied();
+			}
 		}
 
 		public void PlayerDied()

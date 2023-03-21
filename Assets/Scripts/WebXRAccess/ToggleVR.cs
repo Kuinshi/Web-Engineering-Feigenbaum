@@ -5,6 +5,7 @@ namespace WebXRAccess
 {
     public class ToggleVR : MonoBehaviour
     {
+        public static bool vrOn = false;
         // Start is called before the first frame update
         void Start()
         {
@@ -14,6 +15,7 @@ namespace WebXRAccess
         public void VR()
         {
             WebXRManager.Instance.ToggleVR();
+            vrOn = !vrOn;
         }
     }
 }

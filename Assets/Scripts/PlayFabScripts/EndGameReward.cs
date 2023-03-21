@@ -6,6 +6,7 @@ using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine;
 using WebXR;
+using WebXRAccess;
 
 namespace PlayFabScripts
 {
@@ -17,13 +18,13 @@ namespace PlayFabScripts
         // Start is called before the first frame update
         private IEnumerator Start()
         {
-            if (PlayerObject.Local.IsTitan)
+#if UNITY_WEBGL && !UNITY_EDITOR
+            if (ToggleVR.vrOn)
             {
-                #if UNITY_WEBGL && !UNITY_EDITOR
                 WebXRManager.Instance.ToggleVR();
-                #endif
             }
-            
+#endif
+
             GetOldCoins();
 
             while (!gotData)
