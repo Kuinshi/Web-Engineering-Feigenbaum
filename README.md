@@ -36,10 +36,14 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - Copyright/Attribution Notice: 
   Gun models By TastyTony (https://sketchfab.com/TastyTony) and Pichuliru (https://www.patreon.com/Pichuliru) licensed under CC Attribution 4.0
 
+### Parachute Model
+- "Parachute" (https://skfb.ly/6DCWF) by m4dg4m3r is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 ### Sound
 - https://freesound.org/people/seanmorrissey96/sounds/509438/
 - https://freesound.org/people/CosmicEmbers/sounds/387484/
 - https://opengameart.org/content/gun-reload-sounds
+- https://www.zapsplat.com/music/metal-fuel-canister-jerrycan-with-petrol-inside-pick-up-from-concrete-surface-1/
 
 ### Other
 - Crate & Barrel: https://opengameart.org/content/crate-barrel-bundle

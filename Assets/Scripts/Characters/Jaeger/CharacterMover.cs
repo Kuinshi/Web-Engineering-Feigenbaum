@@ -213,8 +213,23 @@ namespace Characters.Jaeger
             return colliders.Length > 1;
             
         }
+        
+        /*
+        private void OnCollisionEnter(Collision other)
+        {
+            if (!HasInputAuthority)
+            {
+                return;
+            }
+            
+            if(other.gameObject.CompareTag("FuelPack"))
+            {
+                FillFuel();
+                other.collider.GetComponent<RemoveParachute>().Use();
+            }
+        }
+        */
 
-        // ToDo: Add Fuel Packs and RPC this I think.
         public void FillFuel()
         {
             if(fuel != -1)

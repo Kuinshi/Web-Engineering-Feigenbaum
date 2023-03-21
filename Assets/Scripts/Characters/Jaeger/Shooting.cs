@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Characters.Titan;
@@ -117,5 +118,21 @@ namespace Characters.Jaeger
         {
             ammoText.text = currentAmmo + "/" + maxAmmo;
         }
+
+        /*
+        private void OnCollisionEnter(Collision other)
+        {
+            if (!HasInputAuthority)
+            {
+                return;
+            }
+            
+            if(other.gameObject.CompareTag("AmmoPack"))
+            {
+                Reload();
+                other.collider.GetComponent<RemoveParachute>().Use();
+            }
+        }
+        */
     }
 }

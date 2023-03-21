@@ -64,7 +64,6 @@ namespace Addressables
             
             foreach (PlayerObject po in PlayerRegistry.Jaeger)
             {
-                // ToDo: Determine proper Spawn Points for players here.
                 NetworkObject playerObject = NetworkRunnerManager.Instance.Runner.Spawn(jaegerPrefab, spawnPointParent.GetChild(spawnCount).position,
                     spawnPointParent.GetChild(spawnCount).rotation, po.Ref);
                 po.playerCharacter = playerObject;
