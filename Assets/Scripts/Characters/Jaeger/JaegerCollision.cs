@@ -9,8 +9,7 @@ namespace Characters.Jaeger
         [SerializeField] private Shooting shooting;
         [SerializeField] private CharacterMover mover;
         
-        
-        private void OnTriggerStay(Collider other)
+        private void OnTriggerEnter(Collider other)
         {
             if (HasInputAuthority)
             {
@@ -27,5 +26,25 @@ namespace Characters.Jaeger
                 }
             }
         }
+        
+        private void OnTriggerStay(Collider other)
+        {
+            if (HasInputAuthority)
+            {
+                if (other.CompareTag("AmmoPack"))
+                {
+                    shooting.Reload();
+                    other.GetComponent<RemoveParachute>().Use();
+                }
+
+                if (other.CompareTag("FuelCrate"))
+                {
+                    mover.FillFuel();
+                    other.GetComponent<RemoveParachute>().Use();
+                }
+            }
+        }
+        
+        
     }
 }

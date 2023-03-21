@@ -15058,6 +15058,7 @@ GameObject:
   - component: {fileID: 5744710028177198300}
   - component: {fileID: 2054008600734658752}
   - component: {fileID: 7076548770634291617}
+  - component: {fileID: 4464410785243616277}
   m_Layer: 9
   m_Name: JaegerPlayer
   m_TagString: Untagged
@@ -15093,10 +15094,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4
+  m_Radius: 0.40634075
   m_Height: 1.7
   m_Direction: 1
-  m_Center: {x: 0.06, y: 0.85, z: 0.18}
+  m_Center: {x: -0.06046292, y: 0.85, z: 0.04051596}
 --- !u!54 &4532241156306236771
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15145,9 +15146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  fuel: 100
-  maxFuel: 100
-  debugMode: 0
+  fuel: 10
+  maxFuel: 10
   rb: {fileID: 4532241156306236771}
   speed: 3
   jumpForce: 25
@@ -15162,6 +15162,7 @@ MonoBehaviour:
   weaponSkinScripts:
   - {fileID: 1162494294184131652}
   - {fileID: 641919871599839504}
+  fuelSound: {fileID: 4464410785243616277}
 --- !u!114 &6960625347632248584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15259,6 +15260,102 @@ MonoBehaviour:
   firstPersonRig: {fileID: 4374080507636813928}
   leftHandFpTarget: {fileID: 1826683489653398838}
   rightHandFpTarget: {fileID: 7716374241100571054}
+--- !u!82 &4464410785243616277
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7992270281763261938}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1666651decfa29142b197adcdf88bedb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8015199389973159130
 GameObject:
   m_ObjectHideFlags: 0
@@ -16719,10 +16816,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.49243736
-  m_Height: 1.9602604
+  m_Radius: 0.63192093
+  m_Height: 2.0263128
   m_Direction: 1
-  m_Center: {x: -0.16889691, y: 0.9137163, z: -0.050416946}
+  m_Center: {x: -0.039626002, y: 0.8806901, z: 0.03962612}
 --- !u!114 &7200060352547630855
 MonoBehaviour:
   m_ObjectHideFlags: 0

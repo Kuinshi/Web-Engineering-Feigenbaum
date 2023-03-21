@@ -12,7 +12,6 @@ namespace Networking
         [SerializeField] private float tweenTime = 0.5f;
         [SerializeField] private GameObject parachute;
         [SerializeField] private Rigidbody rb;
-        [SerializeField] private AudioSource audioSource;
         
 
         private bool parachuteDeactived;
@@ -42,8 +41,6 @@ namespace Networking
 
         public void Use()
         {
-            if(audioSource != null)
-                audioSource.Play();
             Rpc_Despawn();
         }
 

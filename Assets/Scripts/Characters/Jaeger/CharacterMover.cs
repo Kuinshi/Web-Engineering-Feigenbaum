@@ -10,11 +10,9 @@ namespace Characters.Jaeger
 {
     public class CharacterMover : NetworkBehaviour
     {
-        public float fuel = 100;
-        public float maxFuel = 100;
+        [Networked] private float Fuel { get; set; }
+        private float maxFuel = 40;
         
-        [SerializeField] private bool debugMode;
-
         [SerializeField] private Rigidbody rb;
         [SerializeField] private float speed;
         [SerializeField] private float jumpForce;
@@ -29,6 +27,7 @@ namespace Characters.Jaeger
         [SerializeField] private float bodyRotMax;
 
         [SerializeField] private UpdateWeaponSkin[] weaponSkinScripts;
+        [SerializeField] private AudioSource fuelSound;
         
 
         public event Action<float> OnFuelChanged;
@@ -41,16 +40,13 @@ namespace Characters.Jaeger
         private static readonly int Land = Animator.StringToHash("Land");
         private static readonly int Jump = Animator.StringToHash("Jump");
         private static readonly int FlyingChached = Animator.StringToHash("Flying");
-
-        private void Start()
-        {
-            if(debugMode)
-                Spawned();
-        }
+        
 
         public override void Spawned()
         {
             base.Spawned();
+            Fuel = maxFuel;
+            OnFuelChanged?.Invoke(Fuel);
 
             var ownerId = GetComponent<NetworkObject>().InputAuthority;
             Debug.Log(("Jaeger Prefab Spawned called with ower ID " + ownerId ));
@@ -71,7 +67,7 @@ namespace Characters.Jaeger
         private void Update()
         {
             // Collect Input
-            if (!HasInputAuthority && !debugMode)
+            if (!HasInputAuthority)
                 return;
 
             NetworkInputBehaviour.Instance.jumpPressed = Input.GetKey(KeyCode.Space);
@@ -102,15 +98,6 @@ namespace Characters.Jaeger
                 FindObjectOfType<NetworkRunner>().Despawn(GetComponent<NetworkObject>());
                 Destroy(gameObject);
                 once = true;
-            }
-        }
-
-        private void FixedUpdate()
-        {
-            if (debugMode)
-            {
-                NetworkInputData data = NetworkInputBehaviour.Instance.GetJaegerInput();
-                Move(data);
             }
         }
 
@@ -148,17 +135,16 @@ namespace Characters.Jaeger
             if (!jumpPressed)
                 return;
             
-            if(fuel > 0)
+            if(Fuel > 0)
             {
+                Debug.Log("Trying to Fly: Remaining Fuel " + Fuel);
                 ApplyFlyForce();
-                fuel -= Time.fixedDeltaTime;
-                if (fuel < 0)
-                    fuel = 0;
-                OnFuelChanged?.Invoke(fuel);
+                Fuel -= Time.fixedDeltaTime;
+                if (Fuel < 0)
+                    Fuel = 0;
+                OnFuelChanged?.Invoke(Fuel);
             } 
             
-            if(fuel == -1)   // Debug Version for infinite Fuel
-                ApplyFlyForce();
         }
 
         private void ApplyFlyForce()
@@ -214,28 +200,12 @@ namespace Characters.Jaeger
             
         }
         
-        /*
-        private void OnCollisionEnter(Collision other)
-        {
-            if (!HasInputAuthority)
-            {
-                return;
-            }
-            
-            if(other.gameObject.CompareTag("FuelPack"))
-            {
-                FillFuel();
-                other.collider.GetComponent<RemoveParachute>().Use();
-            }
-        }
-        */
 
         public void FillFuel()
         {
-            if(fuel != -1)
-                fuel = maxFuel;
-            
-            OnFuelChanged?.Invoke(fuel);
+            Fuel = maxFuel;
+            fuelSound.Play();
+            OnFuelChanged?.Invoke(Fuel);
         }
     }
 }
