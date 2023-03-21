@@ -4813,6 +4813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693440329220923216}
   - component: {fileID: 2611417559541162245}
+  - component: {fileID: 641919871599839504}
   m_Layer: 8
   m_Name: P90
   m_TagString: Untagged
@@ -4896,6 +4897,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00039135222, y: 0.0010234402, z: -0.0000011952943}
     m_Extent: {x: 0.0010151138, y: 0.0025486497, z: 0.00041068537}
   m_DirtyAABB: 0
+--- !u!114 &641919871599839504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696184562607781336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033f0ddbd8d1dc54aab6b6393bdae364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinIds:
+  - 
+  - Purple
+  - Galaxy
+  skinMaterials:
+  - {fileID: 2100000, guid: 06ebaaeb3eda99c47b592373fca0f84c, type: 2}
+  - {fileID: 2100000, guid: ee6735f13938b384fac6c0d79c99c0d2, type: 2}
+  - {fileID: 2100000, guid: 0946368af9a0cc74d8d0d747ad4fcf76, type: 2}
+  skinnedMeshRenderer: {fileID: 2611417559541162245}
 --- !u!1 &2716553638848228350
 GameObject:
   m_ObjectHideFlags: 0
@@ -14107,6 +14129,9 @@ MonoBehaviour:
   lerpSpeed: 11
   rotator: {fileID: 3807585828536712207}
   bodyRotMax: 15
+  weaponSkinScripts:
+  - {fileID: 1162494294184131652}
+  - {fileID: 641919871599839504}
 --- !u!114 &6960625347632248584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15884,6 +15909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4338625269243284989}
   - component: {fileID: 866159583502005328}
+  - component: {fileID: 1162494294184131652}
   m_Layer: 9
   m_Name: P90
   m_TagString: Untagged
@@ -15967,6 +15993,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00039135222, y: 0.0010234402, z: -0.0000011952943}
     m_Extent: {x: 0.0010151138, y: 0.0025486497, z: 0.00041068537}
   m_DirtyAABB: 0
+--- !u!114 &1162494294184131652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8862668857911710124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033f0ddbd8d1dc54aab6b6393bdae364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinIds:
+  - 
+  - Purple
+  - Galaxy
+  skinMaterials:
+  - {fileID: 2100000, guid: 06ebaaeb3eda99c47b592373fca0f84c, type: 2}
+  - {fileID: 2100000, guid: ee6735f13938b384fac6c0d79c99c0d2, type: 2}
+  - {fileID: 2100000, guid: 0946368af9a0cc74d8d0d747ad4fcf76, type: 2}
+  skinnedMeshRenderer: {fileID: 866159583502005328}
 --- !u!1 &8891368276117016571
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 using System.Collections;
+using Characters.Jaeger;
 using Fusion;
 using Manager;
 using Networking;
@@ -67,7 +68,6 @@ namespace Addressables
                 NetworkObject playerObject = NetworkRunnerManager.Instance.Runner.Spawn(jaegerPrefab, spawnPointParent.GetChild(spawnCount).position,
                     spawnPointParent.GetChild(spawnCount).rotation, po.Ref);
                 po.playerCharacter = playerObject;
-
                 spawnCount += 1;
             }
         }

@@ -20,6 +20,8 @@ namespace Networking
 		// User Settings
 		[Networked(OnChanged = nameof(StatChanged))] public string Nickname { get; set; }
 		[Networked(OnChanged = nameof(StatChanged))] public bool IsReady { get; set; }
+		[Networked(OnChanged = nameof(StatChanged))] public string EquippedSkin { get; set; }
+
 		[Networked] public bool IsTitan { get; private set; }
 		
 
@@ -68,11 +70,22 @@ namespace Networking
 			}
 
 		}
+
+		public void ChangeSkin(string skinId)
+		{
+			Rpc_SetEquippedSkin(skinId);
+		}
 		
 		[Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
 		void Rpc_SetNickname(string nick)
 		{
 			Nickname = nick;
+		}
+		
+		[Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
+		void Rpc_SetEquippedSkin(string skinId)
+		{
+			EquippedSkin = skinId;
 		}
 		
 		[Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]

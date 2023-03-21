@@ -136,8 +136,10 @@ namespace UIScripts
             foreach (var po in PlayerRegistry.Everyone)
             {
                if(po.Ref == NetworkRunnerManager.Instance.Runner.LocalPlayer)
+               {
                    po.Rpc_SetReadyState(isReady);
-            }
+                   po.ChangeSkin(ShopManager.EQUIP);
+               }            }
         }
 
         public void SetReadyViaShop(bool targetState)

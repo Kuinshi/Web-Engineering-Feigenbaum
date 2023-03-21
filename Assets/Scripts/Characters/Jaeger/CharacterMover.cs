@@ -28,6 +28,9 @@ namespace Characters.Jaeger
         [SerializeField] private Transform rotator;
         [SerializeField] private float bodyRotMax;
 
+        [SerializeField] private UpdateWeaponSkin[] weaponSkinScripts;
+        
+
         public event Action<float> OnFuelChanged; 
 
         private bool lastFrameGrounded;
@@ -42,6 +45,26 @@ namespace Characters.Jaeger
         {
             if(debugMode)
                 Spawned();
+        }
+
+        public override void Spawned()
+        {
+            base.Spawned();
+
+            var ownerId = GetComponent<NetworkObject>().InputAuthority;
+            Debug.Log(("Jaeger Prefab Spawned called with ower ID " + ownerId ));
+            
+            foreach (var po in PlayerRegistry.Jaeger)
+            {
+                if(po.Ref == ownerId)
+                {
+                    Debug.Log("Found Matching Player Object");
+                    foreach (var weaponSkin in weaponSkinScripts)
+                    {
+                        weaponSkin.UpdateSkin(po.EquippedSkin);
+                    }
+                }
+            }
         }
 
         private void Update()
