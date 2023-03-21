@@ -122,6 +122,7 @@ namespace Networking
 		[Rpc(RpcSources.All, RpcTargets.InputAuthority)]
 		void Rpc_Damage(int damageValue)
 		{
+			Debug.Log($"Titan took {damageValue} Damage.");
 			Health -= damageValue;
 
 			if (Health <= 0)

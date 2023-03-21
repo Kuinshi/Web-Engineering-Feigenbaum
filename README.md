@@ -22,6 +22,7 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 - https://www.flaticon.com/free-icon/spinner_7021250?term=loading&page=1&position=28&page=1&position=28&related_id=7021250&origin=tag
 - https://opengameart.org/content/64-crosshairs-pack-split
 - https://www.vecteezy.com/photo/4918564-dark-blue-nebula-sparkle-purple-star-universe-in-outer-space-horizontal-galaxy-on-space
+- https://www.flaticon.com/free-icon/bullets_9921467?term=ammunition&page=1&position=3&origin=search&related_id=9921467
 - https://tools.wwwtyro.net/space-3d/index.html#animationSpeed=0&fov=78.87899436668226&nebulae=true&pointStars=true&resolution=1024&seed=b8hmokrez9s&stars=true&sun=false
 
 ### Character Mesh
@@ -33,6 +34,11 @@ Publish on itch.io so we do not need our own server as long as our game stays be
 ### Gun Models
 - Copyright/Attribution Notice: 
   Gun models By TastyTony (https://sketchfab.com/TastyTony) and Pichuliru (https://www.patreon.com/Pichuliru) licensed under CC Attribution 4.0
+
+### Sound
+- https://freesound.org/people/seanmorrissey96/sounds/509438/
+- https://freesound.org/people/CosmicEmbers/sounds/387484/
+- https://opengameart.org/content/gun-reload-sounds
 
 ### Other
 - Crate & Barrel: https://opengameart.org/content/crate-barrel-bundle
