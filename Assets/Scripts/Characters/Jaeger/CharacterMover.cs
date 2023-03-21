@@ -31,8 +31,9 @@ namespace Characters.Jaeger
         [SerializeField] private UpdateWeaponSkin[] weaponSkinScripts;
         
 
-        public event Action<float> OnFuelChanged; 
+        public event Action<float> OnFuelChanged;
 
+        private bool once;
         private bool lastFrameGrounded;
         private float lastFrameSpeed;
         private static readonly int Forwards = Animator.StringToHash("Forwards");
@@ -86,6 +87,22 @@ namespace Characters.Jaeger
                 debugMovement.x -= 1;
 
             NetworkInputBehaviour.Instance.movementDirection = debugMovement;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (!HasInputAuthority)
+                return;
+
+            if (!once && other.gameObject.CompareTag("DeathZone"))
+            {
+                Debug.Log("Collided with Death Zone");
+                PlayerObject.Local.PlayerDied();
+                GameObject.Find("Death").transform.GetChild(0).gameObject.SetActive(true);
+                FindObjectOfType<NetworkRunner>().Despawn(GetComponent<NetworkObject>());
+                Destroy(gameObject);
+                once = true;
+            }
         }
 
         private void FixedUpdate()

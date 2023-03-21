@@ -99,6 +99,7 @@ public class ShopManager : MonoBehaviour
             }
         }, SetDataSuccess,SetDataFailure);
     }
+    
     private void GetCoins()
     {
         PlayFabClientAPI.GetUserData(new GetUserDataRequest() {

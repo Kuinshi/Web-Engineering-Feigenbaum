@@ -1,5 +1,6 @@
 ﻿using Fusion;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Networking
 {
@@ -9,7 +10,8 @@ namespace Networking
 	public class PlayerObject : NetworkBehaviour
 	{
 		public static PlayerObject Local { get; private set; }
-	
+
+		private static bool once;
 		
 		// Metadata
 		[Networked] public PlayerRef Ref { get; set; }
@@ -28,6 +30,8 @@ namespace Networking
 		
 		// State & Gameplay Info
 		[Networked] public bool IsLoaded { get; set; }
+		[Networked(OnChanged = nameof(GameOverCheck))] public bool IsDead { get; set; }
+
 		public NetworkObject playerCharacter;
 
 		
@@ -100,11 +104,68 @@ namespace Networking
 		{
 			IsTitan = isTitan;
 		}
+		
+		[Rpc(RpcSources.InputAuthority, RpcTargets.StateAuthority)]
+		void Rpc_Died()
+		{
+			IsDead = true;
+		}
+
+		public void PlayerDied()
+		{
+			Rpc_Died();
+		}
 
 		static void StatChanged(Changed<PlayerObject> p)
 		{
 			p.Behaviour.OnStatChanged?.Invoke();
 		}
-		
+
+		static void GameOverCheck(Changed<PlayerObject> p)
+		{
+			if (once)
+			{
+				return;
+			}
+			
+			
+			
+			// Check Titan Dead
+			bool titanDead = true;
+			foreach (var titan in PlayerRegistry.Titan)
+			{
+				if (!titan.IsDead)
+				{
+					titanDead = false;
+				}			
+			}
+
+			if (titanDead)
+			{
+				Debug.Log("GAME OVER - TITAN DIED - JAEGER WON");
+				once = true;
+				SceneManager.LoadScene("03.2_GameEnd_JaegerWon");
+				FindObjectOfType<NetworkRunner>().Shutdown();
+				return;
+			}
+			
+			
+			
+			// Check Jaeger Dead
+			bool jaegerDead = true;
+			foreach (var jaeger in PlayerRegistry.Jaeger)
+			{
+				if (!jaeger.IsDead)
+					jaegerDead = false;
+			}
+
+			if (jaegerDead)
+			{
+				Debug.Log("GAME OVER - ALL JAEGERS DEAD - TITAN WON");
+				once = true;
+				SceneManager.LoadScene("03.1_GameEnd_TitanWon");
+				FindObjectOfType<NetworkRunner>().Shutdown();
+			}
+		}
 	}
 }
