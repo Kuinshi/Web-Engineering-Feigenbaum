@@ -12,17 +12,30 @@ namespace PlayFabScripts
         
         public void ClickEquip()
         {
+            Debug.Log("Clicked Equip");
             if (ShopManager.EQUIP != currentShopItem.title)
             {
                 FindObjectOfType<ShopManager>().EquipSkin(currentShopItem.title);
                 buttonText.text = "Unequip";
-                // NEed to unequip other skins...
+                var otherButtons = FindObjectsOfType<EquipButton>();
+                foreach (var equipButton in otherButtons)
+                {
+                    if (equipButton != this)
+                    {
+                        equipButton.ManualUnequip();
+                    }
+                }
             }
             else
             {
                 FindObjectOfType<ShopManager>().UnequipSkin();
                 buttonText.text = "Equip";
             }
+        }
+
+        public void ManualUnequip()
+        {
+            buttonText.text = "Equip";
         }
     }
 }

@@ -193,12 +193,13 @@ public class ShopManager : MonoBehaviour
                     {shopItemsS0[btnNr].title,shopItemsS0[btnNr].description}
                 }
             }, SetDataSuccess,SetDataFailure);
-            CheckPurchaseable();
             
             if (purchasedSkins.ContainsKey(shopItemsS0[btnNr].title))
             {
                 purchasedSkins[shopItemsS0[btnNr].title] = true;
             }
+            
+            CheckPurchaseable();
         }
     }
 
@@ -239,10 +240,17 @@ public class ShopManager : MonoBehaviour
             PlayFabId = playerId,
             Keys = null
         }, result => {
-            Debug.Log("Got user data:");
             if (result.Data.ContainsKey("equippedSkin"))
             { 
                 equipped = result.Data["equippedSkin"].Value;
+                for (int i = 0; i < shopItemsS0.Length; i++)
+                {
+                    if (shopItemsS0[i].title == equipped)
+                    {
+                        shopPanels[i].equipButton.button.SetActive(true);
+                        shopPanels[i].equipButton.button.GetComponentInChildren<TextMeshProUGUI>().text = "Unequip";
+                    }
+                }
             }
         }, (error) => {
             Debug.Log("Got error retrieving user data:");
