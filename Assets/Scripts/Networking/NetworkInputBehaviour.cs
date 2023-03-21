@@ -15,7 +15,8 @@ namespace Networking
         public float yBodyRotation;
         public Vector2 movementDirection;
         public bool jumpPressed;
-
+        public float fuel;
+        
 
         private void Awake()
         {

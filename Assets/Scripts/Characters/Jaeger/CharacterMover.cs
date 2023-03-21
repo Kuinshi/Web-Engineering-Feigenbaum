@@ -10,7 +10,7 @@ namespace Characters.Jaeger
 {
     public class CharacterMover : NetworkBehaviour
     {
-        [Networked] private float Fuel { get; set; }
+        private float fuel;
         public float maxFuel = 40;
         
         [SerializeField] private Rigidbody rb;
@@ -43,8 +43,8 @@ namespace Characters.Jaeger
         public override void Spawned()
         {
             base.Spawned();
-            Fuel = maxFuel;
-            OnFuelChanged?.Invoke(Fuel);
+            fuel = maxFuel;
+            OnFuelChanged?.Invoke(fuel);
 
             var ownerId = GetComponent<NetworkObject>().InputAuthority;
             Debug.Log(("Jaeger Prefab Spawned called with ower ID " + ownerId ));
@@ -69,7 +69,16 @@ namespace Characters.Jaeger
                 return;
 
             NetworkInputBehaviour.Instance.jumpPressed = Input.GetKey(KeyCode.Space);
-
+            if (NetworkInputBehaviour.Instance.jumpPressed)
+            {
+                fuel -= Time.deltaTime;
+                if (fuel <= 0)
+                {
+                    fuel = 0;
+                    NetworkInputBehaviour.Instance.jumpPressed = false;
+                }                
+                OnFuelChanged?.Invoke(fuel);
+            }
             Vector2 debugMovement = Vector2.zero;
             if (Input.GetKey(KeyCode.W))
                 debugMovement.y += 1;
@@ -133,15 +142,7 @@ namespace Characters.Jaeger
             if (!jumpPressed)
                 return;
             
-            if(Fuel > 0)
-            {
-                ApplyFlyForce();
-                Fuel -= Time.fixedDeltaTime;
-                if (Fuel < 0)
-                    Fuel = 0;
-                OnFuelChanged?.Invoke(Fuel);
-            } 
-            
+            ApplyFlyForce();
         }
 
         private void ApplyFlyForce()
@@ -200,10 +201,10 @@ namespace Characters.Jaeger
 
         public void FillFuel()
         {
-            Fuel = maxFuel;
-            Debug.Log("Fuel is now " + Fuel);
+            fuel = maxFuel;
+            Debug.Log("Fuel is now " + fuel);
             fuelSound.Play();
-            OnFuelChanged?.Invoke(Fuel);
+            OnFuelChanged?.Invoke(fuel);
         }
 
         public void TitanHit(Vector3 hit)
