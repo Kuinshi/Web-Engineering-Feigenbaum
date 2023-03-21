@@ -33,6 +33,7 @@ namespace Networking
 		[Networked(OnChanged = nameof(GameOverCheck))] public bool IsDead { get; set; }
 
 		[Networked] public int Health { get; set; } = 5;
+		[Networked] public int DamagePercent { get; set; }
 
 
 		public NetworkObject playerCharacter;

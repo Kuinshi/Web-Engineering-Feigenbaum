@@ -166,7 +166,6 @@ namespace Characters.Jaeger
             if (grounded != lastFrameGrounded)
             {
                 animator.SetBool(FlyingChached, !grounded);
-                Debug.Log("Grounded State Changed - set flying bool in animator to: " + grounded);
             }
 
             Vector3 targetRot = Vector3.zero;
@@ -202,8 +201,23 @@ namespace Characters.Jaeger
         public void FillFuel()
         {
             Fuel = maxFuel;
+            Debug.Log("Fuel is now " + Fuel);
             fuelSound.Play();
             OnFuelChanged?.Invoke(Fuel);
+        }
+
+        public void TitanHit(Vector3 hit)
+        {
+            Rpc_TitanHit(hit);
+        }
+        
+        	
+        [Rpc(RpcSources.All, RpcTargets.InputAuthority)]
+        void Rpc_TitanHit(Vector3 hit)
+        {
+            Debug.Log("Executing Titan Hit");
+            hit *= PlayerObject.Local.DamagePercent;
+            rb.AddForce(hit, ForceMode.Impulse);
         }
     }
 }
