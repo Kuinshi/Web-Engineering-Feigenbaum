@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Manager;
 using Networking;
 using PlayFab;
 using PlayFab.ClientModels;
@@ -41,7 +42,7 @@ namespace PlayFabScripts
         private void GetOldCoins()
         {
             PlayFabClientAPI.GetUserData(new GetUserDataRequest() {
-                PlayFabId = PlayerPrefs.GetString("PLAYERID"),
+                PlayFabId = PlayFabManager.PlayerId,
                 Keys = null
             }, result => {
                 Debug.Log("Got user data:");

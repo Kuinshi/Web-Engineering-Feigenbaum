@@ -1,12 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Manager;
 using PlayFab;
 using PlayFab.ClientModels;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using SceneManager = UnityEngine.SceneManagement.SceneManager;
 
 public class ShopManager : MonoBehaviour
 {
@@ -68,15 +69,14 @@ public class ShopManager : MonoBehaviour
 
     void SetUserData()
     { 
-        usernameTxt.SetText(PlayerPrefs.GetString("USERNAME"));
-        playerId = PlayerPrefs.GetString("PLAYERID");
+        usernameTxt.SetText(PlayFabManager.Username);
+        playerId = PlayFabManager.PlayerId;
         GetCoins();
         GetBoughtSkins();
     }
 
     public void Logout()
     {
-        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(2);
     }
 

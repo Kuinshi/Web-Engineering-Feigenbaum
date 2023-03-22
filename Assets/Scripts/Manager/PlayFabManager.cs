@@ -4,11 +4,15 @@ using PlayFab.ClientModels;
 using UnityEngine;
 using Util;
 using PlayFabScripts;
+using UnityEditor;
 
 namespace Manager
 {
     public class PlayFabManager : MBSingelton<PlayFabManager>
     {
+        public static string Username;
+        public static string Password;
+        public static string PlayerId;
 
         private string myId;
         [HideInInspector] public PlayfabWrapper PlayfabWrapper;
@@ -27,15 +31,14 @@ namespace Manager
 
         #region Login
 
-        //  Username + Passwort wird in PlayerPrefs gespeichert 
         // PlayerId wird in myId gespeichert
         private void OnLoginSuccess(LoginResult result)
         {
-        
-            PlayerPrefs.SetString("USERNAME", lastUsername);
-            PlayerPrefs.SetString("PASSWORD", lastPassword);
+
+            Username = lastUsername;
+            Password = lastPassword;
             myId = result.PlayFabId;
-            PlayerPrefs.SetString("PLAYERID",myId);
+            PlayerId = myId;
             Debug.Log(myId+" wurde eingeloggt");
             Debug.Log("Username = "+ lastUsername);
             
@@ -54,9 +57,8 @@ namespace Manager
         //Neues Profil wird angelegt
         private void OnRegisterSuccess(RegisterPlayFabUserResult result)
         {
-            PlayerPrefs.SetString("USERNAME", lastUsername);
-            PlayerPrefs.SetString("PASSWORD", lastPassword);
-            PlayerPrefs.Save();
+            Username = lastUsername;
+            Password = lastPassword;
             myId = result.PlayFabId;
             
             Debug.Log(myId+" wurde registriert");

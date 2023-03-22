@@ -5,50 +5,51 @@ using Manager;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class CrateSpawner : MonoBehaviour
+namespace Networking
 {
-    [SerializeField] private List<NetworkPrefabRef> crates = new List<NetworkPrefabRef>();
-    [SerializeField] private float minTime = 5;
-    [SerializeField] private float maxTime = 20;
-    [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
+    public class CrateSpawner : MonoBehaviour
+    {
+        [SerializeField] private List<NetworkPrefabRef> crates = new List<NetworkPrefabRef>();
+        [SerializeField] private float baseTime = 12;
+        [SerializeField] private List<Transform> spawnPoints = new List<Transform>();
+
+        private float nextSpawn;
+        private float timeGoneBy;
+        private int crateOrder;
+
+        private void Start()
+        {
+            SetNextSpawn();
+        }
+
+        private void SetNextSpawn()
+        {
+            timeGoneBy = 0;
+            nextSpawn = baseTime / PlayerRegistry.Jaeger.Count();
+        }
     
-
-    private float lastSpawn = 0;
-    private float nextSpawn;
-    private float timeGoneBy;
-
-    private void Start()
-    {
-        SetNextSpawn();
-    }
-
-    private void SetNextSpawn()
-    {
-        timeGoneBy = 0;
-        nextSpawn = Random.Range(minTime, maxTime);
-    }
-    
-    private void Update()
-    {
-        if (!NetworkRunnerManager.Instance.Runner.IsServer)
-            return;
+        private void Update()
+        {
+            if (!NetworkRunnerManager.Instance.Runner.IsServer)
+                return;
         
-        timeGoneBy += Time.deltaTime;
+            timeGoneBy += Time.deltaTime;
 
-        if (timeGoneBy <= nextSpawn)
-            return;
+            if (timeGoneBy <= nextSpawn)
+                return;
         
-        SetNextSpawn();
-        SpawnCrate();
+            SetNextSpawn();
+            SpawnCrate();
         
-    }
+        }
 
-    private void SpawnCrate()
-    {
-        Transform spawnpoint = spawnPoints[Random.Range(0, spawnPoints.Count())];
-        NetworkRunnerManager.Instance.Runner.Spawn(
-            crates[Random.Range(0, crates.Count)], 
-            spawnpoint.position, spawnpoint.rotation);
-
+        private void SpawnCrate()
+        {
+            Transform spawnpoint = spawnPoints[Random.Range(0, spawnPoints.Count())];
+            NetworkRunnerManager.Instance.Runner.Spawn(crates[crateOrder], spawnpoint.position, spawnpoint.rotation);
+            crateOrder += 1;
+            if (crateOrder >= crates.Count)
+                crateOrder = 0;
+        }
     }
 }
