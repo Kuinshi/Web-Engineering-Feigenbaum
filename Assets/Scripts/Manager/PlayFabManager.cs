@@ -43,6 +43,7 @@ namespace Manager
             Debug.Log("Username = "+ lastUsername);
             
             PlayfabWrapper.OnScucessCallback();
+            ShopManager.PresetEquippedSkin();
         }
 
         //to do: zwischen errors differenzieren

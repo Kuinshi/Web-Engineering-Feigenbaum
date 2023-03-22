@@ -234,6 +234,23 @@ public class ShopManager : MonoBehaviour
         EquipSkin(String.Empty);
     }
 
+    // This Function is called after logging into playfab from the playfabman, to prepare the EQUIP string without having to open the shop
+    public static void PresetEquippedSkin()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest() {
+            PlayFabId = PlayFabManager.PlayerId,
+            Keys = null
+        }, result => {
+            if (result.Data.ContainsKey("equippedSkin"))
+            { 
+                EQUIP = result.Data["equippedSkin"].Value;
+            }
+        }, (error) => {
+            Debug.Log("Got error retrieving user data:");
+            Debug.Log(error.GenerateErrorReport());
+        });
+    }
+
     private string GetEquippedSkin()
     {
         string equipped = String.Empty;
