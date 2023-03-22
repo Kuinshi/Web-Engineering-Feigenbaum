@@ -15061,7 +15061,7 @@ GameObject:
   - component: {fileID: 4464410785243616277}
   m_Layer: 9
   m_Name: JaegerPlayer
-  m_TagString: Untagged
+  m_TagString: Jaeger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15146,7 +15146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  fuel: 10
   maxFuel: 10
   rb: {fileID: 4532241156306236771}
   speed: 3

@@ -222,18 +222,21 @@ namespace Characters.Jaeger
             OnFuelChanged?.Invoke(fuel);
         }
 
-        public void TitanHit(Vector3 hit)
+        public void TitanHit(Vector3 hit, int damageMultiplier)
         {
-            Rpc_TitanHit(hit);
+            Rpc_TitanHit(hit, damageMultiplier);
         }
         
         	
         [Rpc(RpcSources.All, RpcTargets.InputAuthority)]
-        void Rpc_TitanHit(Vector3 hit)
+        void Rpc_TitanHit(Vector3 hit, int damageMultiplier)
         {
             Debug.Log("Executing Titan Hit");
-            hit *= PlayerObject.Local.DamagePercent;
+            hit *= (PlayerObject.Local.DamagePercent / 100f);
             rb.AddForce(hit, ForceMode.Impulse);
+
+            PlayerObject.Local.DamagePercent += 10 * damageMultiplier;
+            Debug.Log("Jaeger now has " + PlayerObject.Local.DamagePercent + "% Damage");
         }
     }
 }

@@ -1107,6 +1107,7 @@ GameObject:
   - component: {fileID: 7299406696881843198}
   - component: {fileID: 3166988518473531107}
   - component: {fileID: 8889861882242116111}
+  - component: {fileID: 8676753693391333240}
   m_Layer: 6
   m_Name: TitanScale_WebXRCameraSet
   m_TagString: Untagged
@@ -1171,6 +1172,20 @@ MonoBehaviour:
   head: {fileID: 783263932819190371}
   leftHand: {fileID: 7266044465816441888}
   rightHand: {fileID: 7266094791619726622}
+--- !u!114 &8676753693391333240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7267735632600953654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8037821b79f900c458a6bea012f72812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: {fileID: 7299457084670859250}
+  rightController: {fileID: 7300165384300136940}
 --- !u!1 &7267755769817037550
 GameObject:
   m_ObjectHideFlags: 0
