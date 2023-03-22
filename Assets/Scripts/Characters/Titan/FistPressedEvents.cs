@@ -93,7 +93,7 @@ namespace Characters.Titan
                 OnRightFistClosed?.Invoke();
             }
             
-            if (Input.GetKeyDown(KeyCode.L))
+            if (Input.GetKeyUp(KeyCode.L))
             {
                 Debug.Log("Opening Right Hand");
                 OnRightHandOpened?.Invoke();

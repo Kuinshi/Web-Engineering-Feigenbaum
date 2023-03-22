@@ -19,7 +19,6 @@ namespace Characters.Titan
         private Rigidbody rightGrab;
         private Vector3 rightLastPos;
         private Vector3 rightNewPos;
-        private static readonly int Fist = Animator.StringToHash("Fist");
 
         private void Start()
         {
@@ -29,15 +28,17 @@ namespace Characters.Titan
             if (FistPressedEvents.Instance != null)
             {
                 FistPressedEvents.Instance.OnLeftFistClosed += OnLeftHandClosed;
-                FistPressedEvents.Instance.OnRightFistClosed += OnRightHandClosed;
                 FistPressedEvents.Instance.OnLeftHandOpened += OnLeftHandOpened;
+
+                
+                FistPressedEvents.Instance.OnRightFistClosed += OnRightHandClosed;
                 FistPressedEvents.Instance.OnRightHandOpened += OnRightHandOpened;
             }
         }
 
         private void OnLeftHandClosed()
         {
-            leftHand.handAnimator.SetBool(Fist, true);
+            leftHand.handAnimator.SetBool("Fist", true);
             leftHand.openHandCollider.SetActive(false);
             leftHand.fistCollider.SetActive(true);
             Grab(leftHand, true);
@@ -46,7 +47,8 @@ namespace Characters.Titan
 
         private void OnRightHandClosed()
         {
-            rightHand.handAnimator.SetBool(Fist, true);
+            rightHand.handAnimator.SetBool("LOL", true);
+
             rightHand.openHandCollider.SetActive(false);
             rightHand.fistCollider.SetActive(true);
             Grab(rightHand, false);
@@ -55,7 +57,7 @@ namespace Characters.Titan
 
         private void OnLeftHandOpened()
         {
-            leftHand.handAnimator.SetBool(Fist, false);
+            leftHand.handAnimator.SetBool("Fist", false);
             leftHand.openHandCollider.SetActive(true);
             leftHand.fistCollider.SetActive(false);
             Throw(true);
@@ -64,7 +66,7 @@ namespace Characters.Titan
 
         private void OnRightHandOpened()
         {
-            rightHand.handAnimator.SetBool(Fist, false);
+            rightHand.handAnimator.SetBool("LOL", false);
             rightHand.openHandCollider.SetActive(true);
             rightHand.fistCollider.SetActive(false);
             Throw(false);
@@ -115,6 +117,7 @@ namespace Characters.Titan
             if (throwable == null)
             {
                 Debug.Log("Nothing to throw");
+                return;
             }
 
             throwable.isKinematic = false;

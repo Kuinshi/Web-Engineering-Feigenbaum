@@ -13,6 +13,9 @@ namespace Characters.Titan
         
         private Vector3 currentPos;
         private Vector3 lastPos;
+        private Vector3 secondLastPos;
+        private Vector3 thirdLastPos;
+        private Vector3 fourthLastPos;
         private Vector3 punchMagnitude;
         private bool punchCooldown;
         
@@ -22,6 +25,9 @@ namespace Characters.Titan
             if (!HasInputAuthority)
                 return;
 
+            fourthLastPos = thirdLastPos;
+            thirdLastPos = secondLastPos;
+            secondLastPos = lastPos;
             lastPos = currentPos;
             currentPos = transform.position;
         }
@@ -44,7 +50,7 @@ namespace Characters.Titan
 
         private void Punch(CharacterMover enemy)
         {
-            Vector3 punchVector = currentPos - lastPos;
+            Vector3 punchVector = currentPos - fourthLastPos;
             
             if (Mathf.Abs(punchVector.magnitude) < minPunchMagnitude)
             {
