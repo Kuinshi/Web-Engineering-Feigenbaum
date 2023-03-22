@@ -1,3 +1,4 @@
+using Manager;
 using Networking;
 using TMPro;
 using UnityEngine;
@@ -15,7 +16,7 @@ namespace UIScripts
 
         private void Start()
         {
-            _inputField.text = PlayerPrefs.GetString("USERNAME");
+            _inputField.text = PlayFabManager.Username;
             UpdateName();
         }
 
