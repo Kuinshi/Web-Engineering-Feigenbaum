@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Characters.Jaeger;
 using Fusion;
@@ -32,7 +33,24 @@ namespace Characters.Titan
             currentPos = transform.position;
         }
 
+        /*
         private void OnCollisionEnter(Collision other)
+        {
+            if (!HasInputAuthority)
+                return;
+
+            if (punchCooldown)
+                return;
+            
+            if (other.gameObject.CompareTag("Jaeger"))
+            {
+                CharacterMover enemy = other.gameObject.GetComponent<CharacterMover>();
+                if(enemy != null)
+                    Punch(enemy);
+            }
+        }*/
+
+        private void OnTriggerEnter(Collider other)
         {
             if (!HasInputAuthority)
                 return;
@@ -57,6 +75,8 @@ namespace Characters.Titan
                 Debug.Log("Punch not fast enough with Magnitude of: " + Mathf.Abs(punchVector.magnitude));
                 return;
             }
+
+            Debug.Log("PUNCHING!");
             
             Vector3 punchStrength = punchVector * damageMultiplier;
             enemy.TitanHit(punchStrength, damageMultiplier);

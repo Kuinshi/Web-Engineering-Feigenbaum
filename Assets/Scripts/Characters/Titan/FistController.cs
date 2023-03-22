@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Fusion;
 using UnityEngine;
 
@@ -41,6 +42,8 @@ namespace Characters.Titan
             leftHand.handAnimator.SetBool("Fist", true);
             leftHand.openHandCollider.SetActive(false);
             leftHand.fistCollider.SetActive(true);
+            leftHand.openHandTrigger.SetActive(false);
+            leftHand.fistTrigger.SetActive(true);
             Grab(leftHand, true);
             Debug.Log("Should be closing left Fist!");
         }
@@ -48,9 +51,10 @@ namespace Characters.Titan
         private void OnRightHandClosed()
         {
             rightHand.handAnimator.SetBool("LOL", true);
-
             rightHand.openHandCollider.SetActive(false);
             rightHand.fistCollider.SetActive(true);
+            rightHand.openHandTrigger.SetActive(false);
+            rightHand.fistTrigger.SetActive(true);
             Grab(rightHand, false);
             Debug.Log("Should be closing right Fist!");
         }
@@ -60,6 +64,8 @@ namespace Characters.Titan
             leftHand.handAnimator.SetBool("Fist", false);
             leftHand.openHandCollider.SetActive(true);
             leftHand.fistCollider.SetActive(false);
+            leftHand.openHandTrigger.SetActive(true);
+            leftHand.fistTrigger.SetActive(false);
             Throw(true);
             Debug.Log("Should be opening left Hand!");
         }
@@ -69,42 +75,51 @@ namespace Characters.Titan
             rightHand.handAnimator.SetBool("LOL", false);
             rightHand.openHandCollider.SetActive(true);
             rightHand.fistCollider.SetActive(false);
+            rightHand.openHandTrigger.SetActive(true);
+            rightHand.fistTrigger.SetActive(false);
             Throw(false);
             Debug.Log("Should be opening right Hand!");
         }
 
         private void Grab(HandStructure hand, bool isLeft)
         {
-            Debug.Log("Trying to Grab");
-            Collider[] hitColliders = Physics.OverlapSphere(hand.grabTrigger.transform.position, hand.grabTrigger.transform.localScale.x*0.5f);
-            foreach (var collider in hitColliders)
-            {
-                var grabbable = collider.GetComponent<Grabbable>();
-                if (grabbable == null)
-                    continue;
+            GrabTrigger grabTrigger = isLeft ? leftHand.grabTrigger : rightHand.grabTrigger;
+            Transform grabCenter = isLeft ? leftHand.grabCenter : rightHand.grabCenter;
 
-                var rb = grabbable.GetComponent<Rigidbody>();
-                Debug.Log("Grabbed: " + rb.name);
-                rb.isKinematic = true;
-                rb.useGravity = false;
-                
-                if (isLeft)
-                {
-                    leftGrab = rb;
-                    leftLastPos = rb.position;
-                    leftNewPos = hand.grabCenter.position;
-                }                
-                else
-                {
-                    rightGrab = rb;
-                    rightLastPos = rb.position;
-                    rightNewPos = hand.grabCenter.position;
-                }              
-                
-                rb.position = hand.grabCenter.position;
-
+            if (grabTrigger.grabbableObjects.Count <= 0)
                 return;
+
+            float baseDist = Vector3.Distance(grabCenter.position ,grabTrigger.grabbableObjects[0].position);
+            var rb = grabTrigger.grabbableObjects[0];
+
+            for (int i = 1; i < grabTrigger.grabbableObjects.Count; i++)
+            {
+                float newDist = Vector3.Distance(grabCenter.position ,grabTrigger.grabbableObjects[i].position);
+                if (newDist < baseDist)
+                {
+                    baseDist = newDist;
+                    rb = grabTrigger.grabbableObjects[i];
+                }
             }
+            
+            Debug.Log("Grabbed: " + rb.name);
+            rb.isKinematic = true;
+            rb.useGravity = false;
+            
+            if (isLeft)
+            {
+                leftGrab = rb;
+                leftLastPos = rb.position;
+                leftNewPos = hand.grabCenter.position;
+            }                
+            else
+            {
+                rightGrab = rb;
+                rightLastPos = rb.position;
+                rightNewPos = hand.grabCenter.position;
+            }              
+            
+            rb.position = hand.grabCenter.position;
         }
 
         private void Throw(bool left)
@@ -125,6 +140,11 @@ namespace Characters.Titan
             Vector3 force = (newPos - oldPos) * throwForceMultiplier;
             throwable.AddForce(force, ForceMode.Impulse);
             Debug.Log("Throwing with Force of: " + force);
+
+            if (left)
+                leftGrab = null;
+            else
+                rightGrab = null;
         }
 
         public override void FixedUpdateNetwork()
@@ -168,8 +188,10 @@ namespace Characters.Titan
     {
         public Animator handAnimator;
         public GameObject openHandCollider;
+        public GameObject openHandTrigger;
         public GameObject fistCollider;
-        public GameObject grabTrigger;
+        public GameObject fistTrigger;
+        public GrabTrigger grabTrigger;
         public Transform grabCenter;
     }
     
