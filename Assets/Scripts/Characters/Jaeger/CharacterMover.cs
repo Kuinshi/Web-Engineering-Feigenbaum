@@ -60,6 +60,21 @@ namespace Characters.Jaeger
                     }
                 }
             }
+
+            // Set to default layer on clients tht dont have input authority as you want to see the third person view
+            if (!HasInputAuthority)
+            {
+                SetLayerRecursive(gameObject);
+            }
+        }
+        
+        private void SetLayerRecursive(GameObject currentGo)
+        {
+            currentGo.layer = LayerMask.NameToLayer("Default");
+            foreach (Transform child in currentGo.transform)
+            {
+                SetLayerRecursive(child.gameObject);
+            }
         }
 
         private void Update()
