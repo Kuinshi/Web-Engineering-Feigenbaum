@@ -773,6 +773,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6385277753481380731, guid: 803735542d135f748bea928e8ad49570, type: 3}
+      propertyPath: m_text
+      value: 'Feigenbaum Presnts:
+
+        BrawlXR'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 803735542d135f748bea928e8ad49570, type: 3}
 --- !u!1 &370292397
@@ -2569,9 +2575,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Feigenbaum:
+  m_text: 'Feigenbaum Presnts:
 
-    Awesome Game Title!'
+    BrawlXR'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d67fad2bf28b7748a826f702b272e70, type: 2}
   m_sharedMaterial: {fileID: -2551059644263635171, guid: 1d67fad2bf28b7748a826f702b272e70, type: 2}
