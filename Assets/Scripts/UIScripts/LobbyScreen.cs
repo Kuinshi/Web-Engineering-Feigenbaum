@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Characters.Titan;
 using Fusion;
 using Manager;
 using Networking;
@@ -118,7 +119,10 @@ namespace UIScripts
 #if !UNITY_EDITOR
             Debug.Log("Trying to enter VR");
             if(PlayerObject.Local != null && PlayerObject.Local.IsTitan)
+            {
                 WebXRManager.Instance.ToggleVR();
+                FistPressedEvents.VrOn = true;
+            }
 #endif
             // Change Titan HP
             foreach (var po in PlayerRegistry.Titan)

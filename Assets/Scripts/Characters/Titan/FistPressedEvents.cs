@@ -8,6 +8,8 @@ namespace Characters.Titan
     public class FistPressedEvents : MonoBehaviour
     {
         public static FistPressedEvents Instance;
+        public static bool VrOn = false;
+
         
         [SerializeField] private WebXRController leftController;
         [SerializeField] private WebXRController rightController;
@@ -32,8 +34,7 @@ namespace Characters.Titan
 #if UNITY_WEBGL && !UNITY_EDITOR
         private void Update()
         {
-
-            if (!ToggleVR.vrOn)
+            if (!VrOn)
                 return;
 
             if (leftController.GetButtonDown(WebXRController.ButtonTypes.Trigger)

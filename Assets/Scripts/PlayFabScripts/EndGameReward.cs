@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Characters.Titan;
 using Manager;
 using Networking;
 using PlayFab;
@@ -23,8 +24,9 @@ namespace PlayFabScripts
             Cursor.lockState = CursorLockMode.None;
             
 #if UNITY_WEBGL && !UNITY_EDITOR
-            if (ToggleVR.vrOn)
+            if (FistPressedEvents.VrOn)
             {
+                Debug.Log("Trying to turn off VR");
                 WebXRManager.Instance.ToggleVR();
             }
 #endif

@@ -4,7 +4,6 @@ using PlayFab.ClientModels;
 using UnityEngine;
 using Util;
 using PlayFabScripts;
-using UnityEditor;
 
 namespace Manager
 {
